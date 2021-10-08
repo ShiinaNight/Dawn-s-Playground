@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "dawn:sleeping_beauty"
+        }
+      }
+    },
+    "rewards": {
+      "function": "dawn:craft/sleeping_beauty"
+    }
+  }

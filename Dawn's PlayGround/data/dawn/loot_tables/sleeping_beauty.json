@@ -1,19 +1,176 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "item",
-            "name": "minecraft:golden_sword",
-            "functions": [
-              {
-                "function": "set_nbt",
-                "tag": "{id:\"dawn:sleeping_beauty\",}"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{id:\"dawn:sleeping_beauty\",CustomModelData:12770001,HideFlags:2,display:{Name:'{\"text\":\"睡美人\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+            },
+            {
+              "function": "set_lore",
+                "lore": [
+                {
+                  "text": "以崩坏兽的甲壳为材料加工制",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "成的硅素大剑。剑身布满荆棘",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "般的利刺，在接触到崩坏能后",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "会微微振动。“哦哦! 就像是睡梦",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "中的公主在慢慢醒来!”萝莎莉娅",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "一边大喊着，一边擅自为这把",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "武器起了名字。",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "蓄力攻击:",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "每0.5秒对敌人造成6点伤害，",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "最多持续5秒后陷入眩晕",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "+30% 移动速度",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "+1.6 攻击速度",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "+16 攻击伤害",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "name": "generic.attack_damage",
+                  "attribute": "generic.attack_damage",
+                  "operation": "addition",
+                  "amount": 16,
+                  "slot": "mainhand"
+                },
+                {
+                  "name": "generic.attack_speed",
+                  "attribute": "generic.attack_speed",
+                  "operation": "addition",
+                  "amount": -2.4,
+                  "slot": "mainhand"
+                },
+                {
+                  "name": "generic.movement_speed",
+                  "attribute": "generic.movement_speed",
+                  "operation": "multiply_base",
+                  "amount": 0.3,
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

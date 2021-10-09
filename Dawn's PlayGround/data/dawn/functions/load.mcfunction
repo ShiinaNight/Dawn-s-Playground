@@ -5,6 +5,8 @@ scoreboard objectives add dawnSnkTim minecraft.custom:minecraft.sneak_time
 scoreboard objectives add golden_sword minecraft.used:minecraft.golden_sword
 # 3.技能持续时间
 scoreboard objectives add dawnSkillTim dummy
+# 4.眩晕时间
+scoreboard objectives add dawnFaint dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

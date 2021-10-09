@@ -11,5 +11,5 @@ scoreboard players remove @s[scores={dawnTwoTick=1}] dawnSnkTim 1
 scoreboard players add @s dawnSkillTim 3
 # 给予反胃效果（慢慢的就晕了www）
 effect give @s nausea 4 4 true
-# 给予抗性提升2（转着圈根本没法躲攻击，没这个效果可能就变成废物技能了！）
+# 给予抗性提升2（转着圈根本没法躲攻击，没这个效果可能就变成废物技能了！www）
 effect give @s resistance 1 1 true

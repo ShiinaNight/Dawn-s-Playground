@@ -1,1 +1,2 @@
-execute as @s[predicate=dawn:mainhand/sleeping_beauty] run effect give @s luck 1 1 true
+# 睡美人武器相关
+execute as @s[predicate=dawn:mainhand/sleeping_beauty] run function dawn:weapons/sleeping_beauty

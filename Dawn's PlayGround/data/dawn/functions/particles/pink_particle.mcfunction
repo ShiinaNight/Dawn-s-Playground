@@ -1,0 +1,1 @@
+particle dust 1 0.659 0.659 5 ^ ^1 ^3 1 1 1 2 15 normal @a

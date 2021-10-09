@@ -1,9 +1,0 @@
-{
-    "type": "smelting",
-    "ingredient": {
-        "item": "minecraft:iron_ingot"
-    },
-    "result": "minecraft:knowledge_book",
-    "experience": 2,
-    "cookingtime": 800
-}

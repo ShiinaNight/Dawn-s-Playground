@@ -5,11 +5,11 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:player_head",
+                    "name": "minecraft:iron_sword",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:katana\",display:{Name:'{\"text\":\"武士刀\"}'}}"
+                            "tag": "{CustomModelData:12770002,id:\"dawn:katana\",display:{Name:'{\"text\":\"武士刀\"}'}}"
                         },
                         {
                             "function": "minecraft:set_attributes",

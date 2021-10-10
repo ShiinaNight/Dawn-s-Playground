@@ -5,7 +5,7 @@
         "effects": {
             "night_vision": {
                 "duration": {
-                    "min": 10
+                    "min": 220
                 }
             }
         }

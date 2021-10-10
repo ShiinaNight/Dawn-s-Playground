@@ -1,2 +1,2 @@
 setblock ~ ~ ~ dropper replace
-loot give @s loot dawn:test_item
+loot give @s loot dawn:excalibur

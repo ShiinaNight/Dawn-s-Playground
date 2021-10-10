@@ -5,17 +5,17 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:netherite_sword",
+                    "name": "minecraft:iron_sword",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:excalibur\",HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:10}],Unbreakable:true,display:{Name:'{\"text\":\"断钢剑\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                            "tag": "{id:\"dawn:honjo_masamune\",CustomModelData:12770002,HideFlags:2,display:{Name:'{\"text\":\"武士刀 「正宗」\",\"italic\":false}'},Unbreakable:true,Enchantments:[{id:\"minecraft:sharpness\",lvl:10},{id:\"minecraft:sweeping\",lvl:5}]}"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "传说中的王者之剑，",
+                                    "text": "有史以来最好的武士刀之一，",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,
@@ -23,7 +23,7 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text": "象征着支配与破坏。",
+                                    "text": "于16世纪末消失，此后再也没有被找到。",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,
@@ -48,7 +48,7 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text": "+55 攻击伤害",
+                                    "text": "+30 攻击伤害",
                                     "color": "blue",
                                     "bold": false,
                                     "italic": false,
@@ -65,7 +65,7 @@
                                     "name": "generic.attack_damage",
                                     "attribute": "generic.attack_damage",
                                     "operation": "addition",
-                                    "amount": 55,
+                                    "amount": 22,
                                     "slot": "mainhand"
                                 },
                                 {
@@ -76,6 +76,7 @@
                                     "slot": "mainhand"
                                 }
                             ]
+                            
                         }
                     ]
                 }

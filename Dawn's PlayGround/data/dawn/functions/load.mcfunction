@@ -7,7 +7,12 @@ scoreboard objectives add golden_sword minecraft.used:minecraft.golden_sword
 scoreboard objectives add dawnSkillTim dummy
 # 4.眩晕时间
 scoreboard objectives add dawnFaint dummy
+# 5.装备技能持续时间（防止与手持武器冲突）
+scoreboard objectives add dawnEqpSklTim dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次
 scoreboard objectives add dawnTwoTick dummy
+
+# 三、初始化计分板
+schedule function dawn:scoreboard_init 5s

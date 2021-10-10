@@ -36,7 +36,17 @@
                             ]
                         },
                         {
-                            "function": "minecraft:attributes"
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "",
+                                    "attribute": "generic.attack_damage",
+                                    "operation": "multiply_total",
+                                    "amount": 0.3,
+                                    "slot": "head"
+                                }
+                            ]
+                            
                         }
                     ]
                 }

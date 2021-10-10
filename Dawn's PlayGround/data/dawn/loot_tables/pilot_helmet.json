@@ -39,7 +39,7 @@
                             "function": "minecraft:set_attributes",
                             "modifiers": [
                                 {
-                                    "name": "",
+                                    "name": "generic.attack_damage",
                                     "attribute": "generic.attack_damage",
                                     "operation": "multiply_total",
                                     "amount": 0.3,

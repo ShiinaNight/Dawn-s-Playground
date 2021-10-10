@@ -88,7 +88,7 @@
                   "obfuscated": false
                 },
                 {
-                  "text": "每0.5秒对敌人造成6点伤害，",
+                  "text": "每0.5秒对敌人造成24点伤害，",
                   "color": "aqua",
                   "bold": false,
                   "italic": false,
@@ -132,7 +132,7 @@
                   "obfuscated": false
                 },
                 {
-                  "text": "+16 攻击伤害",
+                  "text": "+24 攻击伤害",
                   "color": "blue",
                   "bold": false,
                   "italic": false,
@@ -149,7 +149,7 @@
                   "name": "generic.attack_damage",
                   "attribute": "generic.attack_damage",
                   "operation": "addition",
-                  "amount": 16,
+                  "amount": 24,
                   "slot": "mainhand"
                 },
                 {

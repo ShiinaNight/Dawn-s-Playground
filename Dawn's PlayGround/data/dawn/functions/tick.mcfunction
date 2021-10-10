@@ -7,3 +7,5 @@ scoreboard players remove @a[scores={dawnTwoTick=0,dawnSnkTim=1..}] dawnSnkTim 1
 
 # 玩家相关
 execute as @e[type=player] run function dawn:players/tick
+# 生物相关
+execute as @e[type=!player,type=!item,type=!falling_block] run function dawn:mobs/tick

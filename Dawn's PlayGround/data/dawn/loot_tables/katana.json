@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{CustomModelData:12770002,id:\"dawn:katana\",display:{Name:'{\"text\":\"武士刀\"}'}}"
+                            "tag": "{id:\"dawn:katana\",CustomModelData:12770002,display:{Name:'{\"text\":\"武士刀\"}'}}"
                         },
                         {
                             "function": "minecraft:set_attributes",

@@ -1,0 +1,1 @@
+execute as @s[type=zombie,nbt={Attributes:[{Name:"minecraft:generic.max_health",Base:20.0}]}] run attribute @s generic.max_health base set 70

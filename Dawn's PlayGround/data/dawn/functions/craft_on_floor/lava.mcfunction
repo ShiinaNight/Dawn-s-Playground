@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{id:"minecraft:netherite_ingot"}}] at @s if block ~ ~ ~ minecraft:lava run execute at @e[distance=..1,nbt={Item:{tag:{id:"dawn:steel_ingot"}}}] if block ~ ~ ~ minecraft:lava run say 1

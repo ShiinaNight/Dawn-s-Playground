@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:hallowed_ingot\",display:{Name:'{\"text\":\"神圣锭\",\"italic\":false}'},Enchantments:[{}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

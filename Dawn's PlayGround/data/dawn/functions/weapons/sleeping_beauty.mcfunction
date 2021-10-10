@@ -1,5 +1,5 @@
 # 萝莎莉娅自带的幸运II（作者的庇护www）
-effect give @s luck 1 1 true
+effect give @s luck 2 1 true
 # 潜行1s发动蓄力攻击
 execute as @s[scores={dawnSnkTim=10..}] run function dawn:skills/sleeping_beauty
 # 蓄力攻击5s后眩晕

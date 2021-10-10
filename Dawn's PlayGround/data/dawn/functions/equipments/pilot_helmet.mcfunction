@@ -1,6 +1,6 @@
 # 铁驭头盔辅助瞄准模块
 # 1.自带夜视
-effect give @s night_vision 1 0 true
+effect give @s[predicate=!dawn:effect/night_version_long] night_vision 15 0 true
 # 2.标记周围实体（发光）
 execute at @s run effect give @e[distance=0.1..9] glowing 10 1 true
 # 3.潜行3s后隐身10s

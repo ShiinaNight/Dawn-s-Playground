@@ -1,1 +1,4 @@
+# dawn:test_item
 execute if data block ~ ~ ~ {Items:[{Slot:1b,tag:{id:"dawn:sleeping_beauty"},Count:1b},{Slot:3b,tag:{id:"dawn:sleeping_beauty"},Count:1b},{Slot:4b,tag:{id:"dawn:sleeping_beauty"},Count:1b},{Slot:5b,tag:{id:"dawn:sleeping_beauty"},Count:1b},{Slot:7b,tag:{id:"dawn:sleeping_beauty"},Count:1b}]} unless data block ~ ~ ~ {Items:[{Slot:0b},{Slot:2b},{Slot:6b},{Slot:8b}]} run function custom_recipes:dropper/test_item
+# 断钢剑
+execute if data block ~ ~ ~ {Items:[{Slot:1b,tag:{id:"dawn:hallowed_ingot"},Count:1b},{Slot:3b,tag:{id:"dawn:hallowed_ingot"},Count:1b},{Slot:4b,id:"golden_sword",Count:1b},{Slot:5b,tag:{id:"dawn:hallowed_ingot"},Count:1b},{Slot:7b,tag:{id:"dawn:hallowed_ingot"},Count:1b}]} unless data block ~ ~ ~ {Items:[{Slot:0b},{Slot:2b},{Slot:6b},{Slot:8b}]}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/block",
+	"textures": {
+		"layer0": "dawn:block/pilot_helmet"
+	}
+}

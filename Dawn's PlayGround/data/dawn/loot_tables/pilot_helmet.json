@@ -9,7 +9,34 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:pilot_helmet\"}"
+                            "tag": "{id:\"dawn:pilot_helmet\",SkullOwner:{Id:[I;-24043859,-1199737510,-1678310134,-1501968142],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly95cy1jLnlzMTY4LmNvbS82MTM3NDY1ODYvODEzNTk2MDg1L3A0NzYzMzQ0NUdNSzduaWROUXFlZC9waWxvdF9oZWxtZXQuUE5HIn19fQ==\"}]}},display:{Name:'{\"text\":\"铁驭头盔\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "带上这顶头盔，你就是一名铁驭了"
+                                },
+                                {
+                                    "text": "——无论你是否已经准备好。"
+                                },
+                                {
+                                    "text": ""
+                                },
+                                {
+                                    "text": "隐形模块： 在线",
+                                    "color": "aqua",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "辅助瞄准： 在线",
+                                    "color": "aqua",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:attributes"
                         }
                     ]
                 }

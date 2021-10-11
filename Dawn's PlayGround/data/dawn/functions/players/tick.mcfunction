@@ -7,6 +7,6 @@ execute as @s[predicate=dawn:head/pilot_helmet] run function dawn:equipments/pil
 # 武士刀相关
 execute as @s[predicate=dawn:mainhand/katana] run function dawn:weapons/katana
 # 枪类相关
-execute as @s[predicate=dawn:mainhand/guns] run function dawn:weapons/guns
+execute as @s[predicate=dawn:mainhand/guns] at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_entity
 # 检测所指方块
-execute as @a at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_block
+execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_block

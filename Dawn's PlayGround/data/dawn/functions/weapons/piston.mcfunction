@@ -1,1 +1,1 @@
-execute as @e[distance=0,type=arrow,limit=1] run function dawn:bullet/piston
+execute as @e[distance=..0.1,type=arrow,limit=1] run function dawn:bullet/piston

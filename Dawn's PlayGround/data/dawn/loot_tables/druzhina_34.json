@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:druzhina_34\",display:{Name:'{\"text\":\"俄罗斯亲卫兵\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "ICA版本的亲卫兵34步枪。现代化远程狙击步枪。射速中等，在所有距离都能是十分有效的武器。",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

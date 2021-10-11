@@ -2,5 +2,5 @@
 # execute if entity @s[distance=..6] if block ~ ~ ~ stone run say 1
 # execute if entity @s[distance=..6] unless block ~ ~ ~ stone positioned ^ ^ ^0.005 run function dawn:players/pointing_block
 # ↑来自https://www.mcbbs.net/forum.php?mod=viewthread&tid=771638的源代码（要解锁卡的）
-execute if entity @s[distance=..6] if entity @e[type=arrow,distance=0] run function dawn:weapons/guns
-execute if entity @s[distance=..6] unless entity @e[type=arrow,distance=0] positioned ^ ^ ^0.005 run function dawn:players/pointing_entity
+execute if entity @s[distance=..2] if entity @e[type=arrow,distance=..0.1] run function dawn:weapons/guns
+execute if entity @s[distance=..2] unless entity @e[type=arrow,distance=..0.1] positioned ^ ^ ^0.005 run function dawn:players/pointing_entity

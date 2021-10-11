@@ -1,11 +1,27 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "equipment": {
-            "mainhand": {
-                "nbt": "{id:'dawn:piston'}"
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{id:'dawn:piston'}"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "nbt": "{id:'dawn:druzhina_34'}"
+                    }
+                }
             }
         }
-    }
+    ]
 }

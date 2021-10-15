@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:damage_source_properties",
+    "entity": "this",
+    "predicate": {
+        "direct_entity": {
+            "equipment": {
+                "mainhand": {
+                    "nbt": "{id:'dawn:reaper_sickle'}"
+                }
+            }
+        }
+    }
+}

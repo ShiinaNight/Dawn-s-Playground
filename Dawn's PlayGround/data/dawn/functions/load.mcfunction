@@ -11,6 +11,8 @@ scoreboard objectives add dawnFaint dummy
 scoreboard objectives add dawnEqpSklTim dummy
 # 6.生物是否已被加强
 scoreboard objectives add dawnMobStreng dummy
+# 7.临时用计分板
+scoreboard objectives add dawnTemper dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

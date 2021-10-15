@@ -15,7 +15,23 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "ICA版本的亲卫兵34步枪。现代化远程狙击步枪。射速中等，在所有距离都能是十分有效的武器。",
+                                    "text": "ICA版本的亲卫兵34步枪。",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "现代化远程狙击步枪。射速中等，",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "在所有距离都能是十分有效的武器。",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,

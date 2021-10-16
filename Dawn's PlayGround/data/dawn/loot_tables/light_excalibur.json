@@ -9,21 +9,14 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:excalibur\",CustomModelData:12770006,HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:10}],Unbreakable:true,display:{Name:'{\"text\":\"断钢剑\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                            "tag": "{id:\"dawn:light_excalibur\",CustomModelData:12770005,HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:10},{id:\"fire_aspect\",lvl:10}],Unbreakable:true,display:{Name:'{\"text\":\"充能断钢剑\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "传说中的王者之剑，",
-                                    "bold": false,
-                                    "italic": true,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "text": "象征着支配与破坏。",
+                                    "text": "此乃胜利与誓约之剑! ! !",
+                                    "color": "gold",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,
@@ -39,16 +32,7 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text": "+0.9 攻击速度",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "text": "+14 攻击伤害",
+                                    "text": "+90 攻击伤害",
                                     "color": "blue",
                                     "bold": false,
                                     "italic": false,
@@ -65,14 +49,7 @@
                                     "name": "generic.attack_damage",
                                     "attribute": "generic.attack_damage",
                                     "operation": "addition",
-                                    "amount": 14,
-                                    "slot": "mainhand"
-                                },
-                                {
-                                    "name": "generic.attack_speed",
-                                    "attribute": "generic.attack_speed",
-                                    "operation": "addition",
-                                    "amount": -3.1,
+                                    "amount": 90,
                                     "slot": "mainhand"
                                 }
                             ]

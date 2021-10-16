@@ -15,3 +15,5 @@ execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=pillag
 # 精英怪类（猪灵蛮兵，唤魔者）
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=piglin_brute] run function dawn:mobs/infernal_mobs_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=evoker] run function dawn:mobs/infernal_mobs_strengthen
+# 铁傀儡
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=iron_golem] run function dawn:mobs/iron_golem_strengthen

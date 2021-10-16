@@ -1,0 +1,1 @@
+execute as @s[scores={netherite_sword=1}] run function dawn:skills/light_excalibur

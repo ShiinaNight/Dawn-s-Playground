@@ -12,5 +12,9 @@ execute as @s[predicate=dawn:mainhand/guns] at @s anchored eyes positioned ^ ^ ^
 execute as @s[predicate=dawn:mainhand/reaper_sickle] run function dawn:weapons/reaper_sickle
 # 无尽之剑相关
 execute as @s[predicate=dawn:mainhand/infinity_blade] run function dawn:weapons/infinity_blade
+# 断钢剑相关
+execute as @s[predicate=dawn:mainhand/excalibur] run function dawn:weapons/excalibur
+# 充能断钢剑相关
+execute as @s[predicate=dawn:mainhand/light_excalibur] run function dawn:weapons/light_excalibur
 # 检测所指方块
 execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_block

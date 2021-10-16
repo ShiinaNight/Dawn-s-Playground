@@ -4,6 +4,12 @@ scoreboard players set @a[scores={dawnTwoTick=2..}] dawnTwoTick 0
 
 # dawnSnkTim周期减少
 scoreboard players remove @a[scores={dawnTwoTick=0,dawnSnkTim=1..}] dawnSnkTim 1
+# DeathCountDown持续减少
+scoreboard players remove @e[scores={DeathCountDown=-9..}] DeathCountDown 1
+# DeathCountDown特效
+execute at @e[scores={DeathCountDown=0..}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 2 normal @a
+# 立刻杀死DeathCountDown归零的实体
+kill @e[scores={DeathCountDown=0}]
 
 # 玩家相关
 execute as @e[type=player] run function dawn:players/tick

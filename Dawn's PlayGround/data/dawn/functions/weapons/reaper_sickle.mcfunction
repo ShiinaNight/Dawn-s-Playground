@@ -1,2 +1,2 @@
-execute at @e[predicate=dawn:hit_by_player/reaper_sickle] run particle soul_fire_flame ~ ~ ~ 0.2 0.2 0.2 0.1 3 normal
-execute as @e[predicate=dawn:hit_by_player/reaper_sickle] run say 1
+execute as @s[scores={netherite_sword=1..}] at @s run function dawn:particles/reaper_sickle
+execute at @s run execute as @e[nbt={HurtTime:1s},distance=0.01..6] run function dawn:skills/reaper_sickle

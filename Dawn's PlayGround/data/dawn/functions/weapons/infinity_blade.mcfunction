@@ -1,0 +1,1 @@
+execute at @s[scores={netherite_sword=1..}] run execute as @e[nbt={HurtTime:1s},distance=0.01..6] unless entity @s[scores={DeathCountDown=0..}] run function dawn:skills/infinity_blade

@@ -10,5 +10,7 @@ execute as @s[predicate=dawn:mainhand/katana] run function dawn:weapons/katana
 execute as @s[predicate=dawn:mainhand/guns] at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_entity
 # 收割者相关
 execute as @s[predicate=dawn:mainhand/reaper_sickle] run function dawn:weapons/reaper_sickle
+# 无尽之剑相关
+execute as @s[predicate=dawn:mainhand/infinity_blade] run function dawn:weapons/infinity_blade
 # 检测所指方块
 execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_block

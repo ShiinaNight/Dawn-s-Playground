@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:copper_chestplate\",display:{Name:'{\"text\":\"铜胸甲\",\"italic\":false}',color:16747565}}"
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.max_health",
+                                    "attribute": "generic.max_health",
+                                    "operation": "addition",
+                                    "amount": 5,
+                                    "slot": "chest"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

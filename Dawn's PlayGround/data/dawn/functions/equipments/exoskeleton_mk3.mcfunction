@@ -1,0 +1,1 @@
+execute at @s run execute as @e[type=arrow,distance=..3,nbt={inGround:false}] run data modify entity @s inGround set value true

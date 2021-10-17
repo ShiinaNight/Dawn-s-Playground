@@ -16,9 +16,19 @@
                             "lore": [
                                 {
                                     "text": "终极版动力装甲，提供强劲的动力辅助和能量护盾。"
+                                },
+                                {
+                                    "text": "",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "弹射物防护模块： 在线",
+                                    "color": "aqua",
+                                    "italic": false
                                 }
                             ]
                         },
+                        
                         {
                             "function": "minecraft:set_attributes",
                             "modifiers": [

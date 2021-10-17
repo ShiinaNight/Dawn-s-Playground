@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:netherite_ingot",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:12770010,id:\"dawn:neutron_star_piece\",display:{Name:'{\"text\":\"中子星碎片\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

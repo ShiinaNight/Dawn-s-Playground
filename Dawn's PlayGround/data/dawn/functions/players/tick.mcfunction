@@ -18,5 +18,8 @@ execute as @s[predicate=dawn:mainhand/excalibur] run function dawn:weapons/excal
 execute as @s[predicate=dawn:mainhand/light_excalibur] run function dawn:weapons/light_excalibur
 # 圣人之心相关
 execute as @s[predicate=dawn:mainhand/saint_heart] run function dawn:weapons/saint_heart
+# 动力装甲 MKIII相关
+execute as @s[predicate=dawn:head/exoskeleton_mk3] run function dawn:equipments/exoskeleton_mk3
+
 # 检测所指方块
 execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_block

@@ -8,6 +8,8 @@ scoreboard players remove @a[scores={dawnTwoTick=0,dawnSnkTim=1..}] dawnSnkTim 1
 scoreboard players remove @e[scores={DeathCountDown=-9..}] DeathCountDown 1
 # dawnParticle持续减少
 scoreboard players remove @e[scores={dawnParticle=1..}] dawnParticle 1
+# dawnTimStop持续减少
+scoreboard players remove @e[scores={dawnTimStop=1..}] dawnTimStop 1
 # DeathCountDown特效
 execute at @e[scores={DeathCountDown=0..}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 2 normal @a
 # 立刻杀死DeathCountDown归零的实体

@@ -21,6 +21,9 @@ scoreboard objectives add DeathCountDown dummy
 scoreboard objectives add dawnParticle dummy
 # 10.通用伤害系统
 scoreboard objectives add ud_counts dummy
+scoreboard objectives add ud_hup dummy
+# 11.时停用计分板
+scoreboard objectives add dawnTimStop dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

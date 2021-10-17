@@ -1,0 +1,46 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:exoskeleton_mk3\",SkullOwner:{Id:[I;1278336546,-138572039,282736954,2107833374],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjYyYTI3ZTdhMjg5ZDdhNmFlYjFlYjZjZDFhMjM0MDU3M2Y0NDY1M2IwN2ZjODlhODNlM2JkNmFmMWJlIn19fQ==\"}]}},display:{Name:'{\"text\":\"动力装甲 MKIII\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "终极版动力装甲，提供强劲的动力辅助和能量护盾。"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.attack_speed",
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "addition",
+                                    "amount": 1,
+                                    "slot": "head"
+                                },
+                                {
+                                    "name": "generic.attack_speed",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": 10,
+                                    "slot": "head"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

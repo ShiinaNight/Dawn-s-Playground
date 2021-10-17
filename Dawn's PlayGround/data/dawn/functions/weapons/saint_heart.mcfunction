@@ -1,0 +1,1 @@
+execute as @s[scores={iron_sword=1..}] run function dawn:skills/saint_heart

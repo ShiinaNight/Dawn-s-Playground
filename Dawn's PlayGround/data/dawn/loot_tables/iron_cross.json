@@ -5,18 +5,26 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:netherite_sword",
+                    "name": "minecraft:iron_sword",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:light_excalibur\",CustomModelData:12770005,HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:10},{id:\"fire_aspect\",lvl:10}],Unbreakable:true,display:{Name:'{\"text\":\"充能断钢剑\",\"color\":\"red\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                            "tag": "{id:\"dawn:iron_cross\",CustomModelData:12770007,HideFlags:2,display:{Name:'{\"text\":\"铁质十字架\",\"italic\":false}'}}"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "此乃胜利与誓约之剑! ! !",
-                                    "color": "gold",
+                                    "text": "十字架用来打人不是很正常吗？",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false,
+                                    "color": "gray"
+                                },
+                                {
+                                    "text": "很强的武器，可惜一般人拿不动它。",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,
@@ -32,7 +40,16 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text": "+330 攻击伤害",
+                                    "text": "-0.3 攻击速度",
+                                    "color": "red",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "+75 攻击伤害",
                                     "color": "blue",
                                     "bold": false,
                                     "italic": false,
@@ -49,10 +66,18 @@
                                     "name": "generic.attack_damage",
                                     "attribute": "generic.attack_damage",
                                     "operation": "addition",
-                                    "amount": 330,
+                                    "amount": 75,
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "generic.attack_speed",
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "addition",
+                                    "amount": -4.3,
                                     "slot": "mainhand"
                                 }
                             ]
+                            
                         }
                     ]
                 }

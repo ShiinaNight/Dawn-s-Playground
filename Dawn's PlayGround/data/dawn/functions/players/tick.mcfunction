@@ -20,6 +20,12 @@ execute as @s[predicate=dawn:mainhand/light_excalibur] run function dawn:weapons
 execute as @s[predicate=dawn:mainhand/saint_heart] run function dawn:weapons/saint_heart
 # 动力装甲 MKIII相关
 execute as @s[predicate=dawn:head/exoskeleton_mk3] run function dawn:equipments/exoskeleton_mk3
+# 太阳剑相关
+execute as @s[predicate=dawn:mainhand/sun_sword] run function dawn:weapons/sun_sword
 
 # 检测所指方块
 execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_block
+
+# 通用伤害系统
+function ud:ud_dealt_player
+function ud:ud_dealt_uplayer_main

@@ -1,2 +1,0 @@
-function ud:ud_dealt_uplayer_damage
-function ud:ud_dealt_uplayer_particle

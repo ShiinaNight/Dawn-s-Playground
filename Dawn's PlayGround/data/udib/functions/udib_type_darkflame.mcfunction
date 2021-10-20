@@ -1,6 +1,4 @@
+scoreboard players operation @s udibMagicDMG *= @s udibFireLvl
+scoreboard players add @s udibFireLvl 20
 function udib:udib_dealt_uplayer
-schedule function udib:udib_dealt_uplayer 1s append
-schedule function udib:udib_dealt_uplayer 2s append
-schedule function udib:udib_dealt_uplayer 3s append
-schedule function udib:udib_dealt_uplayer 4s append
-say 1
+# 计算公式：最终伤害 = udibMagicDMG * udibFireLvl / 70 + 5

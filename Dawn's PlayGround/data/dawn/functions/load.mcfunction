@@ -30,3 +30,5 @@ schedule function dawn:scoreboard_init 5s
 # 四、通用伤害系统
 function ud:load
 function udib:load
+# 五、高亮显示
+function waila:load

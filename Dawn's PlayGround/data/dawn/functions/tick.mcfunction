@@ -12,10 +12,14 @@ scoreboard players remove @e[scores={dawnParticle=1..}] dawnParticle 1
 scoreboard players remove @e[scores={dawnTimStop=1..}] dawnTimStop 1
 # DeathCountDown特效
 execute at @e[scores={DeathCountDown=0..}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 2 normal @a
-# udibTemper设为20
-execute as @e unless entity @s[scores={udibTemper=20}] run scoreboard players set @s udibTemper 20
+# udib相关
+function udib:tick
 # 立刻杀死DeathCountDown归零的实体
 kill @e[scores={DeathCountDown=0}]
+
+# 通用伤害系统
+function ud:ud_dealt_player
+function ud:ud_dealt_uplayer
 
 # 玩家相关
 execute as @e[type=player] run function dawn:players/tick

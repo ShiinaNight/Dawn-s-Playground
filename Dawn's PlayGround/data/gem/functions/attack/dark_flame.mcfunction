@@ -1,0 +1,1 @@
+execute as @s[nbt={SelectedItem:{tag:{Tags:["dark_flame_5"]}}}] at @s run execute as @e[nbt={Fire:800s},distance=0.01..6] run function gem:dark_flame_attack/plus_5

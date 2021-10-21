@@ -27,3 +27,6 @@ execute as @e[type=player] run function dawn:players/tick
 execute as @e[type=!player,type=!item,type=!falling_block] run function dawn:mobs/tick
 # 地板合成相关
 function dawn:craft_on_floor/tick
+
+# 测试
+execute as @e[nbt={Fire:20400s}] run say "被dawn:test_sword击中"

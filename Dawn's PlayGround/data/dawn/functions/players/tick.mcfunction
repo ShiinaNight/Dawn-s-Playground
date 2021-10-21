@@ -25,5 +25,8 @@ execute as @s[predicate=dawn:mainhand/sun_sword] run function dawn:weapons/sun_s
 # waila相关
 function waila:tick
 
+# 宝石系统
+function gem:tick
+
 # 检测所指方块
 execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_block

@@ -1,0 +1,78 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:copper_sword\",Tags:[\"thunder_5\"],HideFlags:2,display:{Name:'{\"text\":\"铜剑\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "+1.6 攻击速度",
+                                    "color": "blue",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "+4 攻击伤害",
+                                    "color": "blue",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "+5 雷电伤害",
+                                    "color": "blue",
+                                    "bold": false,
+                                    "italic": false,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "name": "generic.attack_damage",
+                                    "attribute": "generic.attack_damage",
+                                    "operation": "addition",
+                                    "amount": 4,
+                                    "slot": "mainhand"
+                                },
+                                {
+                                    "name": "generic.attack_speed",
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "addition",
+                                    "amount": -2.4,
+                                    "slot": "mainhand"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

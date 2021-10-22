@@ -1,0 +1,1 @@
+execute as @s[nbt={SelectedItem:{tag:{Tags:["thunder_5"]}}}] at @s run execute as @e[nbt={HurtTime:1s},nbt=!{HurtByTimestamp:0},distance=0.01..6] run function gem:thunder/plus_5_attack

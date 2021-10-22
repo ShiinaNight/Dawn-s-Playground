@@ -19,6 +19,8 @@ scoreboard objectives add dawnTemper dummy
 scoreboard objectives add DeathCountDown dummy
 # 9.用于显示长时间特效的计分板
 scoreboard objectives add dawnParticle dummy
+# 10.攻击判定用计分板
+scoreboard objectives add HurtByTimestamp dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

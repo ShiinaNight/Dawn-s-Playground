@@ -30,3 +30,6 @@ function dawn:craft_on_floor/tick
 
 # 测试
 execute as @e[nbt={Fire:20400s}] run say "被dawn:test_sword击中"
+
+# 检测攻击（请保持在最底下）
+execute as @e[nbt=!{HurtByTimestamp:0},nbt={HurtTime:1s}] run data modify entity @s HurtByTimestamp set value 0

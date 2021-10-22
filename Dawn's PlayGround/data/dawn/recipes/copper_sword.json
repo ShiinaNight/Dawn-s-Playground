@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" C ",
+		"RCR",
+		"RSR"
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:copper_ingot"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		},
+		"R": {
+			"item": "minecraft:redstone"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

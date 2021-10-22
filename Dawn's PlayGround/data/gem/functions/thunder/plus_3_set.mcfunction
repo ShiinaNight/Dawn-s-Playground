@@ -1,0 +1,2 @@
+execute as @e[type=item,limit=1,distance=..6] run data modify entity @s Item.tag.Tags append value "thunder_4"
+execute as @e[type=item,limit=1,distance=..6] run data modify entity @s Item.tag.display.Lore append value "{\"text\":\"+4 雷电伤害\",\"italic\":false,\"color\":\"blue\"}"

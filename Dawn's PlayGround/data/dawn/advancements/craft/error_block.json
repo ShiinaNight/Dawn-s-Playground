@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dawn:error_block"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dawn:craft/error_block"
+    }
+}

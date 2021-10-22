@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"BP",
+		"PB"
+	],
+	"key": {
+		"P": {
+			"item": "minecraft:purple_concrete"
+		},
+		"B": {
+			"item": "minecraft:black_concrete"
+		}
+	},
+	"result": {
+		"item": "minecraft:knowledge_book",
+		"count": 1
+	}
+}

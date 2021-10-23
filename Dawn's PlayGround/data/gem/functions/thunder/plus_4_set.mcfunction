@@ -1,2 +1,3 @@
 execute as @e[type=item,limit=1,distance=..6] run data modify entity @s Item.tag.Tags append value "thunder_3"
-execute as @e[type=item,limit=1,distance=..6] run data modify entity @s Item.tag.display.Lore append value "{\"text\":\"+3 雷电伤害\",\"italic\":false,\"color\":\"blue\"}"
+execute as @e[type=item,limit=1,distance=..6,nbt=!{Item:{tag:{id:"dawn:solar_sword"}}}] run data modify entity @s Item.tag.display.Lore append value "{\"text\":\"+4 雷电伤害\",\"italic\":false,\"color\":\"blue\"}"
+execute as @e[type=item,limit=1,distance=..6,nbt={Item:{tag:{id:"dawn:solar_sword"}}}] run data modify entity @s Item.tag.display.Lore append value "{\"text\":\"+40 雷电伤害\",\"italic\":false,\"color\":\"blue\"}"

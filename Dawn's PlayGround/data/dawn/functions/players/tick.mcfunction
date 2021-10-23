@@ -23,7 +23,7 @@ execute as @s[predicate=dawn:head/exoskeleton_mk3] run function dawn:equipments/
 # 太阳剑相关
 execute as @s[predicate=dawn:mainhand/sun_sword] run function dawn:weapons/sun_sword
 # waila相关
-# function waila:tick
+function waila:tick
 
 # 宝石系统
 function gem:tick

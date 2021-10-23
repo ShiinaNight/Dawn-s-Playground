@@ -10,3 +10,7 @@ scoreboard objectives add udibThunderDMG dummy
 scoreboard objectives add udibThunderTims dummy
 # 6.感电层数
 scoreboard objectives add udibThunderLvl dummy
+# 7.火焰伤害
+scoreboard objectives add udibFireDMG dummy
+# 8.火元素攻击次数
+scoreboard objectives add udibFireTims dummy

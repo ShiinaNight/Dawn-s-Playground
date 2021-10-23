@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:sun_sword\",HideFlags:2,Unbreakable:true,display:{Name:'{\"text\":\"太阳剑\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                            "tag": "{id:\"dawn:solar_sword\",HideFlags:2,Unbreakable:true,display:{Name:'{\"text\":\"太阳剑\",\"color\":\"gold\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
                         },
                         {
                             "function": "set_lore",
@@ -40,7 +40,7 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text": "+50 暗火伤害",
+                                    "text": "+1 攻击伤害",
                                     "color": "blue",
                                     "bold": false,
                                     "italic": false,

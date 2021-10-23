@@ -13,7 +13,10 @@ scoreboard players set @s udibThunderLvl 50
 # 特效、反馈
 execute at @s run particle electric_spark ~ ~1 ~ 0.5 0.5 0.5 0.1 20 normal @a
 tellraw @p [{"text":"对","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"selector":"@s","color":"aqua","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"造成了","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"objective":"udibThunderDMG","name":"@s"},"color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"点雷电伤害","color":"gold","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
-tellraw @p [{"selector":"@s","color":"aqua"},{"text":"的属性：着火","color":"gray"},{"score":{"objective":"udibFireLvl","name":"@s"},"color":"red"},{"text":"层，感电","color":"gray"},{"score":{"objective":"udibThunderLvl","name":"@s"},"color":"blue"},{"text":"t","color":"gray"}]
+execute as @s store result score @s wailaHealthBar run data get entity @s Health
+scoreboard players operation @s wailaHealthBar -= @s udCounts
+scoreboard players set @s[scores={wailaHealthBar=..0}] wailaHealthBar 0
+tellraw @p [{"selector":"@s","color":"aqua"},{"text":"的属性：剩余","color":"gray"},{"score":{"objective":"wailaHealthBar","name":"@s"},"color":"green"},{"text":"HP，着火","color":"gray"},{"score":{"objective":"udibFireLvl","name":"@s"},"color":"red"},{"text":"层，感电","color":"gray"},{"score":{"objective":"udibThunderLvl","name":"@s"},"color":"blue"},{"text":"t","color":"gray"}]
 # 计算公式：最终伤害 = udibThunderDMG * 1.5 + 5
 
 # 归零

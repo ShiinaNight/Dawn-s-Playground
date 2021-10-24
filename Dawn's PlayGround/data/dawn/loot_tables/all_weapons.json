@@ -1,0 +1,99 @@
+{
+    "pools": [
+        {
+            "rolls": 10,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dawn:druzhina_34",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:excalibur",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:exoskeleton_mk1",
+                    "weight": 50
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:exoskeleton_mk2",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:exoskeleton_mk3",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:honjo_masamune",
+                    "weight": 200
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:katana",
+                    "weight": 2000
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:infinity_blade_3d",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:iron_cross",
+                    "weight": 1000
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:judah_oath",
+                    "weight": 30
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:pilot_helmet",
+                    "weight": 100
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:rage_of_ubisoft",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:reaper_sickle",
+                    "weight": 80
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:saint_heart",
+                    "weight": 5
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:sleeping_beauty",
+                    "weight": 5
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:solar_flare_helmet",
+                    "weight": 5
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:solar_sword",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:true_judah_oath",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

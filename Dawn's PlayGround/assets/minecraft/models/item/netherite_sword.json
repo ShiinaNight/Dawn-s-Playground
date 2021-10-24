@@ -8,6 +8,7 @@
 		{ "predicate": { "custom_model_data": 12770005 }, "model": "dawn:sword/light_excalibur"},
 		{ "predicate": { "custom_model_data": 12770006 }, "model": "dawn:sword/excalibur"},
 		{ "predicate": { "custom_model_data": 12770011 }, "model": "dawn:sword/rage_of_ubisoft"},
-		{ "predicate": { "custom_model_data": 12770012 }, "model": "dawn:sword/infinity_blade_3D"}
+		{ "predicate": { "custom_model_data": 12770012 }, "model": "dawn:sword/infinity_blade_3D"},
+		{ "predicate": { "custom_model_data": 12770013 }, "model": "dawn:sword/solar_sword"}
 	]
 }

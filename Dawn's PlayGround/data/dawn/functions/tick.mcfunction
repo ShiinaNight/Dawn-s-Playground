@@ -11,13 +11,15 @@ scoreboard players remove @e[scores={dawnParticle=1..}] dawnParticle 1
 # dawnTimStop持续减少
 scoreboard players remove @e[scores={dawnTimStop=1..}] dawnTimStop 1
 # DeathCountDown特效
-execute at @e[scores={DeathCountDown=0..}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 2 normal @a
-execute at @e[scores={DeathCountDown=1}] run particle soul_fire_flame ~ ~1 ~ 0.4 0.4 0.4 0.5 20 normal @a
+# execute at @e[scores={DeathCountDown=0..}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 2 normal @a
+execute at @e[scores={DeathCountDown=0..}] run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0.5 5 normal @a
+execute at @e[scores={DeathCountDown=0}] run particle soul_fire_flame ~ ~1 ~ 0.4 0.4 0.4 0.5 30 normal @a
+execute at @e[scores={DeathCountDown=0}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 20 normal @a
 # udib相关
 function udib:tick
-# 立刻杀死DeathCountDown归零的实体///更改：将DeathCountDown归零的实体传送到虚空
-#kill @e[scores={DeathCountDown=0}]
+# 立刻杀死DeathCountDown归零的实体///更改：将DeathCountDown归零的实体传送到虚空并杀死
 execute as @e[scores={DeathCountDown=0}] at @s run tp ~ ~-100 ~
+kill @e[scores={DeathCountDown=0}]
 
 # 通用伤害系统（为了防止bug，关闭对玩家的伤害系统）
 # function ud:ud_dealt_player

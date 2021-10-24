@@ -14,8 +14,9 @@ scoreboard players remove @e[scores={dawnTimStop=1..}] dawnTimStop 1
 execute at @e[scores={DeathCountDown=0..}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 2 normal @a
 # udib相关
 function udib:tick
-# 立刻杀死DeathCountDown归零的实体
-kill @e[scores={DeathCountDown=0}]
+# 立刻杀死DeathCountDown归零的实体///更改：将DeathCountDown归零的实体传送到虚空
+#kill @e[scores={DeathCountDown=0}]
+execute as @e[scores={DeathCountDown=0}] at @s run tp ~ ~-100 ~
 
 # 通用伤害系统
 function ud:ud_dealt_player

@@ -25,6 +25,8 @@ execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=guardi
 # 铁傀儡/1000HP
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=iron_golem] run function dawn:mobs/iron_golem_strengthen
 # 末影龙/2000HP
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=ender_dragon] run function dawn:mobs/ender_dragen_strengthen
 # 凋零/3000HP
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=wither] run function dawn:mobs/wither_strengthen
 # 远古守卫者/5000HP
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=elder_guardian] run function dawn:mobs/elder_guardian_strengthen

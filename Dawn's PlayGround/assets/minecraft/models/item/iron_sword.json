@@ -7,6 +7,7 @@
 		{ "predicate": { "custom_model_data": 12770002 }, "model": "dawn:sword/katana"},
 		{ "predicate": { "custom_model_data": 12770007 }, "model": "dawn:cross/iron_cross"},
 		{ "predicate": { "custom_model_data": 12770008 }, "model": "dawn:cross/saint_heart"},
-		{ "predicate": { "custom_model_data": 12770009 }, "model": "dawn:cross/judah_oath"}
+		{ "predicate": { "custom_model_data": 12770009 }, "model": "dawn:cross/judah_oath"},
+		{ "predicate": { "custom_model_data": 12770015 }, "model": "dawn:sword/katana_3d"}
 	]
 }

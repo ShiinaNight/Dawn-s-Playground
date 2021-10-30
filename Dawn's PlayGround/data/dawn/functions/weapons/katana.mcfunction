@@ -1,3 +1,3 @@
-execute as @s[nbt={SelectedItem:{tag:{id:"dawn:katana",CustomModelData:12770002,display:{Name:'{"text":"武士刀 「正宗」"}'}}}}] run function dawn:weapons/honjo_masamune
+execute as @s[nbt={SelectedItem:{tag:{id:"dawn:katana",CustomModelData:12770015,display:{Name:'{"text":"武士刀 「正宗」"}'}}}}] run function dawn:weapons/honjo_masamune
 
-execute as @s[nbt={SelectedItem:{tag:{id:"dawn:katana"}}},nbt=!{SelectedItem:{tag:{id:"dawn:katana",CustomModelData:12770002,display:{Name:'{"text":"武士刀 「」","italic":false}'}}}},nbt=!{SelectedItem:{tag:{id:"dawn:katana",CustomModelData:12770002,display:{Name:'{"text":"武士刀 「正宗」"}'}}}}] run function dawn:weapons/katana_named
+execute as @s[nbt={SelectedItem:{tag:{id:"dawn:katana"}}},nbt=!{SelectedItem:{tag:{id:"dawn:katana",CustomModelData:12770015,display:{Name:'{"text":"武士刀 「」","italic":false}'}}}},nbt=!{SelectedItem:{tag:{id:"dawn:katana",CustomModelData:12770015,display:{Name:'{"text":"武士刀 「正宗」"}'}}}}] run function dawn:weapons/katana_named

@@ -18,7 +18,8 @@ execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=zombif
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=blaze] run function dawn:mobs/pillagers_and_nethers_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=wither_skeleton] run function dawn:mobs/pillagers_and_nethers_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=pillager] run function dawn:mobs/pillagers_and_nethers_strengthen
-# 精英怪类（猪灵蛮兵，唤魔者，守卫者）/300HP
+# 精英怪类（末影人，猪灵蛮兵，唤魔者，守卫者）/300HP
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=enderman] run function dawn:mobs/infernal_mobs_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=piglin_brute] run function dawn:mobs/infernal_mobs_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=evoker] run function dawn:mobs/infernal_mobs_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=guardian] run function dawn:mobs/infernal_mobs_strengthen

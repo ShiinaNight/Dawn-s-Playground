@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_sword"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 12660001 }, "model": "dawn:boss/resurrected_body"},
+		{ "predicate": { "custom_model_data": 12660002 }, "model": "dawn:boss/resurrected_body_hand"}
+	]
+}

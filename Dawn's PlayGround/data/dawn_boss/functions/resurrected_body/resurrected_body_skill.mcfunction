@@ -1,0 +1,1 @@
+execute as @e[tag=resurrected_body,nbt={HurtTime:1s}] at @s run summon husk ~ ~ ~

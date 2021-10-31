@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:honjo_masamune\",CustomModelData:12770002,HideFlags:2,display:{Name:'{\"text\":\"武士刀 「正宗」\",\"italic\":false}'},Unbreakable:true,Enchantments:[{id:\"minecraft:sharpness\",lvl:10},{id:\"minecraft:sweeping\",lvl:5}]}"
+                            "tag": "{id:\"dawn:honjo_masamune\",CustomModelData:12770015,HideFlags:2,display:{Name:'{\"text\":\"武士刀 「正宗」\",\"italic\":false}'},Unbreakable:true,Enchantments:[{id:\"minecraft:sharpness\",lvl:10},{id:\"minecraft:sweeping\",lvl:5}]}"
                         },
                         {
                             "function": "set_lore",
@@ -48,7 +48,7 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text": "+10 攻击伤害",
+                                    "text": "+20 攻击伤害",
                                     "color": "blue",
                                     "bold": false,
                                     "italic": false,
@@ -65,7 +65,7 @@
                                     "name": "generic.attack_damage",
                                     "attribute": "generic.attack_damage",
                                     "operation": "addition",
-                                    "amount": 10,
+                                    "amount": 20,
                                     "slot": "mainhand"
                                 },
                                 {

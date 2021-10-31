@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:enderman_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:package\",CustomModelData:12770016,display:{Name:'{\"text\":\"补给包\",\"italic\":false}'},EntityTag:{id:\"minecraft:falling_block\",BlockState:{Name:\"minecraft:chest\"},TileEntityData:{LootTable:\"dawn:all_weapons\"},Time:1,DropItem:0}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+execute at @s if entity @s[scores={netherite_sword=1..}] as @e[nbt={HurtTime:1s},distance=0.01..6] run function dawn:skills/curse

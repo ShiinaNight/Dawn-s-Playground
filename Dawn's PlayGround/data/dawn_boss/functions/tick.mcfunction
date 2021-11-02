@@ -1,1 +1,1 @@
-function dawn_boss:resurrected_body/resurrected_body_skill
+function dawn_boss:resurrected_flesh/resurrected_flesh_skill

@@ -39,4 +39,9 @@ execute as @e[nbt={Fire:20400s}] run say "被dawn:test_sword击中"
 function dawn_boss:tick
 
 # 检测攻击（请保持在最底下）
+
+# scoreboard players set @e[scores={netherite_sword=1..}] netherite_sword 0
+# scoreboard players set @e[scores={golden_sword=1..}] golden_sword 0
+# scoreboard players set @e[scores={iron_sword=1..}] iron_sword 0
+
 execute as @e[nbt=!{HurtByTimestamp:0},nbt={HurtTime:1s}] run data modify entity @s HurtByTimestamp set value 0

@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:resurrected_body_hand\",Unbreakable:true,CustomModelData:12660002}"
+                            "tag": "{id:\"dawn:flesh_body\",Unbreakable:true,CustomModelData:12660003}"
                         }
                     ]
                 }

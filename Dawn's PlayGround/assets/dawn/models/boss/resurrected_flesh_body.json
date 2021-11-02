@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "dawn:resurrected_body/flesh",
-		"1": "dawn:resurrected_body/face",
-		"particle": "dawn:resurrected_body/flesh"
+		"0": "dawn:resurrected_flesh/flesh",
+		"1": "dawn:resurrected_flesh/face",
+		"particle": "dawn:resurrected_flesh/flesh"
 	},
 	"elements": [
 		{

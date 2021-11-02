@@ -31,12 +31,17 @@
                 {
                     "type": "loot_table",
                     "name": "dawn:honjo_masamune",
-                    "weight": 200
+                    "weight": 150
                 },
                 {
                     "type": "loot_table",
                     "name": "dawn:katana",
                     "weight": 2000
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:soul_of_glory",
+                    "weight": 200
                 },
                 {
                     "type": "loot_table",
@@ -91,6 +96,11 @@
                 {
                     "type": "loot_table",
                     "name": "dawn:true_judah_oath",
+                    "weight": 5
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:curse",
                     "weight": 5
                 }
             ]

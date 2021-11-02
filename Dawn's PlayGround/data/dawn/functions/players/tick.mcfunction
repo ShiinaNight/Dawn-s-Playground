@@ -20,8 +20,11 @@ execute as @s[predicate=dawn:mainhand/light_excalibur] run function dawn:weapons
 execute as @s[predicate=dawn:mainhand/saint_heart] run function dawn:weapons/saint_heart
 # 动力装甲 MKIII相关
 execute as @s[predicate=dawn:head/exoskeleton_mk3] run function dawn:equipments/exoskeleton_mk3
-# 太阳剑相关
-execute as @s[predicate=dawn:mainhand/sun_sword] run function dawn:weapons/sun_sword
+# 太阳剑相关（已经不用了，放到gem里了）
+# execute as @s[predicate=dawn:mainhand/sun_sword] run function dawn:weapons/sun_sword
+# 「诅咒」相关
+execute as @s[predicate=dawn:mainhand/curse] run function dawn:weapons/curse
+
 # waila相关
 function waila:tick
 

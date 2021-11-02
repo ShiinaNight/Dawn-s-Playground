@@ -4,7 +4,8 @@
 		"layer0": "item/diamond_sword"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 12660001 }, "model": "dawn:boss/resurrected_body"},
-		{ "predicate": { "custom_model_data": 12660002 }, "model": "dawn:boss/resurrected_body_hand"}
+		{ "predicate": { "custom_model_data": 12660001 }, "model": "dawn:boss/resurrected_flesh_body"},
+		{ "predicate": { "custom_model_data": 12660002 }, "model": "dawn:boss/resurrected_flesh_hand"},
+		{ "predicate": { "custom_model_data": 12660003 }, "model": "dawn:boss/flesh_body"}
 	]
 }

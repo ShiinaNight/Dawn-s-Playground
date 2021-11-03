@@ -73,6 +73,23 @@
           "looting_multiplier": 0.01
         }
       ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "dawn:items/broken_ica_credentials"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.11,
+          "looting_multiplier": 0.02
+        }
+      ]
     }
   ]
 }

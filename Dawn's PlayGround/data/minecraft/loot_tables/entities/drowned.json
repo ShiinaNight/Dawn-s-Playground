@@ -56,13 +56,10 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "dawn:broken_ica_credentials"
+          "name": "dawn:items/broken_ica_credentials"
         }
       ],
       "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
-        },
         {
           "condition": "minecraft:random_chance_with_looting",
           "chance": 0.11,

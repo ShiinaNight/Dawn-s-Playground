@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/book"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 12770019 }, "model": "dawn:item/ica_credentials"},
+		{ "predicate": { "custom_model_data": 12770020 }, "model": "dawn:item/broken_ica_credentials"}
+	]
+}

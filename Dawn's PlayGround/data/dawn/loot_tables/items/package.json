@@ -5,11 +5,15 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:enderman_spawn_egg",
+                    "name": "minecraft:chest",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:package\",display:{Name:'{\"text\":\"补给包\",\"italic\":false}'},EntityTag:{id:\"minecraft:falling_block\",BlockState:{Name:\"minecraft:chest\"},TileEntityData:{LootTable:\"dawn:all_weapons\"},Time:1,DropItem:0}}"
+                            "tag": "{id:\"dawn:package\",display:{Name:'{\"text\":\"补给包\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_loot_table",
+                            "name": "dawn:all_weapons"
                         }
                     ]
                 }

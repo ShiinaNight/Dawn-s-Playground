@@ -9,6 +9,6 @@
 		{ "predicate": { "custom_model_data": 12770008 }, "model": "dawn:cross/saint_heart"},
 		{ "predicate": { "custom_model_data": 12770009 }, "model": "dawn:cross/judah_oath"},
 		{ "predicate": { "custom_model_data": 12770015 }, "model": "dawn:sword/katana_3d"},
-		{ "predicate": { "custom_model_data": 12770022 }, "model": "dawn:sword/conduit"}
+		{ "predicate": { "custom_model_data": 12770022 }, "model": "dawn:sword/tide"}
 	]
 }

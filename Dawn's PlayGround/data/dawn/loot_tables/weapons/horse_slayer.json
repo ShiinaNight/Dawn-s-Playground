@@ -9,19 +9,18 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:tide\",CustomModelData:12770022,HideFlags:2,Unbreakable:true,display:{Name:'{\"text\":\"潮汐\",\"color\":\"blue\",\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}'}}"
+                            "tag": "{id:\"dawn:horse_slayer\",CustomModelData:12770015,HideFlags:2,display:{Name:'{\"text\":\"「  斩马刀  」\",\"italic\":false}'},Unbreakable:true,Enchantments:[{id:\"minecraft:sweeping\",lvl:5}]}"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "来自深海的古老兵器",
+                                    "text": "来自另一个服务器的武器",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,
                                     "strikethrough": false,
-                                    "obfuscated": false,
-                                    "color": "gray"
+                                    "obfuscated": false
                                 },
                                 {
                                     "text": "",
@@ -32,7 +31,7 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text": "+1.6 攻击速度",
+                                    "text": "+0.9 攻击速度",
                                     "color": "blue",
                                     "bold": false,
                                     "italic": false,
@@ -41,7 +40,7 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text": "+50 攻击伤害",
+                                    "text": "+10 攻击伤害",
                                     "color": "blue",
                                     "bold": false,
                                     "italic": false,
@@ -58,15 +57,36 @@
                                     "name": "generic.attack_damage",
                                     "attribute": "generic.attack_damage",
                                     "operation": "addition",
-                                    "amount": 50,
+                                    "amount": 12,
                                     "slot": "mainhand"
                                 },
                                 {
                                     "name": "generic.attack_speed",
                                     "attribute": "generic.attack_speed",
                                     "operation": "addition",
-                                    "amount": -2.4,
+                                    "amount": -3.1,
                                     "slot": "mainhand"
+                                },
+                                {
+                                    "name": "generic.armor",
+                                    "attribute": "generic.armor",
+                                    "operation": "addition",
+                                    "amount": 50,
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attack_speed",
+                                    "attribute": "generic.attack_speed",
+                                    "operation": "multiply_total",
+                                    "amount": -1,
+                                    "slot": "offhand"
+                                },
+                                {
+                                    "name": "generic.attack_damage",
+                                    "attribute": "generic.attack_damage",
+                                    "operation": "multiply_total",
+                                    "amount": -1,
+                                    "slot": "offhand"
                                 }
                             ]
                             

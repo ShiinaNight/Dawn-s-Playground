@@ -10,8 +10,7 @@
             ]
         },
         "seed": 0,
-        "settings": "minecraft:floating_islands",
-
+        "settings": "minecraft:floating_islands"
     },
     "type":"minecraft:overworld"
 }

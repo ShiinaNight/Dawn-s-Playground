@@ -1,0 +1,21 @@
+{
+    "values": [
+        "minecraft:area_effect_cloud",
+        "minecraft:trident",
+        "minecraft:arrow",
+        "minecraft:fireball",
+        "minecraft:small_fireball",
+        "minecraft:dragon_fireball",
+        "minecraft:firework_rocket",
+        "minecraft:wither_skull",
+        "minecraft:potion",
+        "minecraft:llama_spit",
+        "minecraft:shulker_bullet",
+        "minecraft:ender_pearl",
+        "minecraft:egg",
+        "minecraft:fishing_bobber",
+        "minecraft:snowball",
+        "minecraft:potion",
+        "minecraft:evoker_fangs"
+    ]
+}

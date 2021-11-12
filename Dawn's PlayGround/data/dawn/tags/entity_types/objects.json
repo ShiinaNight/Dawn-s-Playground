@@ -1,0 +1,17 @@
+{
+    "values": [
+        "minecraft:minecart",
+        "minecraft:tnt_minecart",
+        "minecraft:chest_minecart",
+        "minecraft:hopper_minecart",
+        "minecraft:furnace_minecart",
+        "minecraft:spawner_minecart",
+        "minecraft:command_block_minecart",
+        "minecraft:tnt",
+        "minecraft:armor_stand",
+        "minecraft:falling_block",
+        "minecraft:item",
+        "minecraft:item_frame",
+        "minecraft:glow_item_frame"
+    ]
+}

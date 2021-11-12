@@ -1,0 +1,1 @@
+execute as @s[predicate=dawn:rune_bag/fire_immunity] run function dawn:rune_bag/fire_immunity

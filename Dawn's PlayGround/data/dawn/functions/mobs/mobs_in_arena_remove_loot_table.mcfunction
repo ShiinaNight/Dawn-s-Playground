@@ -1,0 +1,1 @@
+execute as @e[distance=..1000,type=!player,type=!#dawn:projectiles,type=!#dawn:objects,tag=!boss,tag=!special] run data modify entity @s DeathLootTable set value "dawn:nothing"

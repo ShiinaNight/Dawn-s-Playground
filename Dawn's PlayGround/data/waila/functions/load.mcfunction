@@ -1,1 +1,2 @@
 scoreboard objectives add wailaHealthBar dummy
+scoreboard objectives add wailaMHealthBar dummy

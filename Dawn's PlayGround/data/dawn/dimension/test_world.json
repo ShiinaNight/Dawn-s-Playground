@@ -1,0 +1,27 @@
+{
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "layers": [
+                {
+                    "block": "minecraft:glass",
+                    "height": 1
+                },
+                {
+                    "block": "minecraft:barrier",
+                    "height": 1
+                }
+            ],
+            "biome": "minecraft:the_void",
+            "structures": {
+                "stronghold": {
+                    "distance": 1000,
+                    "count": 1,
+                    "spread": 0
+                },
+                "structures": {}
+            }
+        }
+    },
+    "type": "minecraft:overworld"
+}

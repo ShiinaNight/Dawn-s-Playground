@@ -1,0 +1,1 @@
+attribute @s generic.max_health modifier remove 506893ee-c747-4b92-a466-a5147970ba57

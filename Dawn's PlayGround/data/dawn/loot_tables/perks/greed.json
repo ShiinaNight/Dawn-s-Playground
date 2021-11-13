@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"perk_greed\",Tags:[\"greed\"],display:{Name:'{\"text\":\"[天赋] 贪婪\",\"italic\":false,\"color\":\"yellow\"}'}}"
+                            "tag": "{id:\"perk_greed\",CustomModelData:12771004,Tags:[\"greed\"],display:{Name:'{\"text\":\"[天赋] 贪婪\",\"italic\":false,\"color\":\"yellow\"}'}}"
                         },
                         {
                             "function": "set_lore",

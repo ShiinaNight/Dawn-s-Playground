@@ -9,13 +9,13 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"perk_fire_immunity\",CustomModelData:12771003,Tags:[\"fire_immunity\"],display:{Name:'{\"text\":\"[天赋] 火焰免疫\",\"italic\":false,\"color\":\"yellow\"}'}}"
+                            "tag": "{id:\"perk_permanent_shield\",CustomModelData:12771005,Tags:[\"permanent_shield\"],display:{Name:'{\"text\":\"[天赋] 永久护盾\",\"italic\":false,\"color\":\"yellow\"}'}}"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "火焰不会对你造成伤害",
+                                    "text": "你获得一面永久性的小护盾",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,

@@ -5,6 +5,11 @@
 	},
 	"overrides": [
 		{ "predicate": { "custom_model_data": 12770019 }, "model": "dawn:item/ica_credentials"},
-		{ "predicate": { "custom_model_data": 12770020 }, "model": "dawn:item/broken_ica_credentials"}
+		{ "predicate": { "custom_model_data": 12770020 }, "model": "dawn:item/broken_ica_credentials"},
+		{ "predicate": { "custom_model_data": 12771001 }, "model": "dawn:perk/breathless"},
+		{ "predicate": { "custom_model_data": 12771002 }, "model": "dawn:perk/extra_health"},
+		{ "predicate": { "custom_model_data": 12771003 }, "model": "dawn:perk/fire_immunity"},
+		{ "predicate": { "custom_model_data": 12771004 }, "model": "dawn:perk/greed"},
+		{ "predicate": { "custom_model_data": 12771005 }, "model": "dawn:perk/permanent_shield"}
 	]
 }

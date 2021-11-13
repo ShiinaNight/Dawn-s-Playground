@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"perk_breathless\",Tags:[\"breathless\"],display:{Name:'{\"text\":\"[天赋] 屏息静气\",\"italic\":false,\"color\":\"yellow\"}'}}"
+                            "tag": "{id:\"perk_breathless\",CustomModelData:12771001,Tags:[\"breathless\"],display:{Name:'{\"text\":\"[天赋] 屏息静气\",\"italic\":false,\"color\":\"yellow\"}'}}"
                         },
                         {
                             "function": "set_lore",

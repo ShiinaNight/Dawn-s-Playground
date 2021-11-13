@@ -1,2 +1,10 @@
 scoreboard objectives add wailaHealthBar dummy
 scoreboard objectives add wailaMHealthBar dummy
+scoreboard objectives add wailaBaseAtkDmg dummy
+scoreboard objectives add wailaBaseArmor dummy
+scoreboard objectives add wailaMotionX dummy
+scoreboard objectives add wailaMotionY dummy
+scoreboard objectives add wailaMotionZ dummy
+scoreboard objectives add wailaFire dummy
+scoreboard objectives add wailaAir dummy
+scoreboard objectives add wailaFallDis dummy

@@ -16,7 +16,33 @@
                     "weight": 1
                 },
                 {
-                    "type": "minecraft:empty",
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:empty",
+                    "weight": 9
+                }
+            ]
+        },
+        {
+            "rolls": 1000,
+            "bonus_rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dawn:rune_bag/greed"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dawn:currencies/gold",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:empty",
                     "weight": 9
                 }
             ]

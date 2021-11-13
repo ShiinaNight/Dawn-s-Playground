@@ -5,17 +5,17 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:gold_nugget",
+                    "name": "minecraft:book",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:gold\",display:{Name:'{\"text\":\"金币\",\"italic\":false,\"color\":\"gold\"}'}}"
+                            "tag": "{id:\"perk_greed\",Tags:[\"greed\"],display:{Name:'{\"text\":\"[天赋] 贪婪\",\"italic\":false,\"color\":\"yellow\"}'}}"
                         },
                         {
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "一种货币，可用于大部分交易",
+                                    "text": "敌人被你击杀时，掉落的黄金变成2倍",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,

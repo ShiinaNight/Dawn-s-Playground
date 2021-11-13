@@ -1,91 +1,117 @@
 {
-  "type": "minecraft:entity",
-  "pools": [
-    {
-      "rolls": 15.0,
-      "bonus_rolls": 1.0,
-      "conditions": [
+    "type": "minecraft:entity",
+    "pools": [
         {
-          "condition": "minecraft:killed_by_player"
-        }
-      ],
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "name": "dawn:currencies/gold",
-          "weight": 1
+            "rolls": 15,
+            "bonus_rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dawn:currencies/gold",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:empty",
+                    "weight": 9
+                }
+            ]
         },
         {
-          "type": "minecraft:empty",
-          "weight": 9
-        }
-      ]
-    },
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 2.0
-              },
-              "add": false
-            },
-            {
-              "function": "minecraft:looting_enchant",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 0.0,
-                "max": 1.0
-              }
-            }
-          ],
-          "name": "minecraft:rotten_flesh"
-        }
-      ]
-    },
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_ingot"
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:killed_by_player"
+            "rolls": 15,
+            "bonus_rolls": 1,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dawn:rune_bag/greed"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dawn:currencies/gold",
+                    "weight": 1
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "minecraft:empty",
+                    "weight": 9
+                }
+            ]
         },
         {
-          "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.11,
-          "looting_multiplier": 0.02
-        }
-      ]
-    },
-    {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "entries": [
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 2
+                            },
+                            "add": false
+                        },
+                        {
+                            "function": "minecraft:looting_enchant",
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ],
+                    "name": "minecraft:rotten_flesh"
+                }
+            ]
+        },
         {
-          "type": "minecraft:loot_table",
-          "name": "dawn:items/broken_ica_credentials"
-        }
-      ],
-      "conditions": [
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:copper_ingot"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.11,
+                    "looting_multiplier": 0.02
+                }
+            ]
+        },
         {
-          "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.11,
-          "looting_multiplier": 0.02
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dawn:items/broken_ica_credentials"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:random_chance_with_looting",
+                    "chance": 0.11,
+                    "looting_multiplier": 0.02
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

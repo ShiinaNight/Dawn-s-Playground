@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dawn:perks/breathless",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:perks/extra_health",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:perks/fire_immunity",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:perks/greed",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:perks/permanent_shield",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

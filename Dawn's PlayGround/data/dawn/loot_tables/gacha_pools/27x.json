@@ -1,0 +1,13 @@
+{
+    "pools": [
+        {
+            "rolls": 27,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dawn:gacha_pools/main"
+                }
+            ]
+        }
+    ]
+}

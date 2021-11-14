@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+
+                {
+                    "type": "loot_table",
+                    "name": "dawn:items/soul_of_glory",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:armors/exoskeleton_mk1",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:armors/pilot_helmet",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

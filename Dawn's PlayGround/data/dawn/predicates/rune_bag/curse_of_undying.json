@@ -1,0 +1,7 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{Inventory:[{tag:{id:\"dawn:rune_bag\",Items:[{tag:{Tags:[\"curse_of_undying\"]}}]}}]}"
+    }
+}

@@ -10,6 +10,7 @@
 		{ "predicate": { "custom_model_data": 12771002 }, "model": "dawn:perk/extra_health"},
 		{ "predicate": { "custom_model_data": 12771003 }, "model": "dawn:perk/fire_immunity"},
 		{ "predicate": { "custom_model_data": 12771004 }, "model": "dawn:perk/greed"},
-		{ "predicate": { "custom_model_data": 12771005 }, "model": "dawn:perk/permanent_shield"}
+		{ "predicate": { "custom_model_data": 12771005 }, "model": "dawn:perk/permanent_shield"},
+		{ "predicate": { "custom_model_data": 12771006 }, "model": "dawn:perk/curse_of_undying"}
 	]
 }

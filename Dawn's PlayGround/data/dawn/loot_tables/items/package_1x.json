@@ -9,11 +9,11 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:package\",display:{Name:'{\"text\":\"补给包\",\"italic\":false}'}}"
+                            "tag": "{id:\"dawn:package_1x\",display:{Name:'{\"text\":\"补给包（单抽）\",\"italic\":false}'}}"
                         },
                         {
                             "function": "minecraft:set_loot_table",
-                            "name": "dawn:all_weapons"
+                            "name": "dawn:gacha_pools/1x"
                         }
                     ]
                 }

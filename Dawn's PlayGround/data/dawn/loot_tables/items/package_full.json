@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:package_full\",display:{Name:'{\"text\":\"补给包（满载）\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_loot_table",
+                            "name": "dawn:gacha_pools/27x"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

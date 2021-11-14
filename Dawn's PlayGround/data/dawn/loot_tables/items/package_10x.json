@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:package_10x\",display:{Name:'{\"text\":\"补给包（十连）\",\"italic\":false}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_loot_table",
+                            "name": "dawn:gacha_pools/10x"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

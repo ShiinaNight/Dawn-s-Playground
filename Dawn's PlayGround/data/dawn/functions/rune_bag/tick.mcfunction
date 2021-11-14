@@ -3,3 +3,4 @@ execute as @s[predicate=dawn:rune_bag/breathless] run function dawn:rune_bag/bre
 execute as @s[predicate=dawn:rune_bag/permanent_shield,predicate=!dawn:effect/absorption] run function dawn:rune_bag/permanent_shield
 execute as @s[predicate=dawn:rune_bag/extra_health] run function dawn:rune_bag/extra_health
 execute as @s[predicate=!dawn:rune_bag/extra_health] run function dawn:rune_bag/extra_health_remove
+execute as @s[predicate=dawn:rune_bag/curse_of_undying] run function dawn:rune_bag/curse_of_undying

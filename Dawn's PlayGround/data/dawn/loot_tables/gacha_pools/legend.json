@@ -1,0 +1,64 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/curse",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/saint_heart",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/solar_sword",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/druzhina_34",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/sleeping_beauty",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/infinity_blade_3d",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/surtr",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/tide",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/judah_oath",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:armors/exoskeleton_mk3",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:armors/solar_flare_helmet",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

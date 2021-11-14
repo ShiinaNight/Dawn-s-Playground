@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/copper_sword",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/katana",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/iron_cross",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

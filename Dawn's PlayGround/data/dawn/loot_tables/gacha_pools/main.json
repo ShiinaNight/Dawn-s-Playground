@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dawn:gacha_pools/common",
+                    "weight": 70
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:gacha_pools/rare",
+                    "weight": 25
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:gacha_pools/epic",
+                    "weight": 4
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:gacha_pools/legend",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

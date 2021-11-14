@@ -21,6 +21,8 @@ scoreboard objectives add DeathCountDown dummy
 scoreboard objectives add dawnParticle dummy
 # 10.攻击判定用计分板
 scoreboard objectives add HurtByTimestamp dummy
+# 11.用于箭矢加速的计分板
+scoreboard objectives add dawnArrowBoosted dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

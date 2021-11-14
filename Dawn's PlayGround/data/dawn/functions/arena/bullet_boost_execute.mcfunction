@@ -1,0 +1,1 @@
+execute as @a at @s as @e[type=minecraft:arrow,type=spectral_arrow,distance=0.1..] unless entity @s[scores={dawnArrowBoosted=1}] run function dawn:arena/bullet_boost

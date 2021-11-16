@@ -10,19 +10,6 @@
                         {
                             "function": "minecraft:set_nbt",
                             "tag": "{id:\"dawn:gold\",display:{Name:'{\"text\":\"金币\",\"italic\":false,\"color\":\"gold\"}'}}"
-                        },
-                        {
-                            "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "一种货币，可用于大部分交易",
-                                    "bold": false,
-                                    "italic": true,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                }
-                            ]
                         }
                     ]
                 }

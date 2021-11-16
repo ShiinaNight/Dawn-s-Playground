@@ -1,0 +1,155 @@
+{
+	"texture": "textures/entity/snow_golem.png",
+	"textureSize": [64, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -11, 0]
+		},
+		{
+			"part": "body_bottom",
+			"id": "body_bottom",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "body_bottom2",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "body2",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0]
+						},
+						{
+							"id": "body_bottom1",
+							"invertAxis": "xy",
+							"translate": [0, 12, 0]
+						},
+						{
+							"id": "body1",
+							"invertAxis": "xy",
+							"translate": [0, 20, 0],
+							"boxes": [
+								{"coordinates": [-1.5, 3.5, -1.5, 3, 3, 3], "textureOffset": [21, 114]},
+								{"coordinates": [-3.5, -6, -1.5, 7, 12, 3], "textureOffset": [40, 104]},
+								{"coordinates": [-14.5, -2, 2.3, 29, 12, 0], "textureOffset": [4, 26]},
+								{"coordinates": [-3, 1.4, -2.5, 6, 2, 2], "textureOffset": [0, 120]}
+							],
+							"submodels": [
+								{
+									"id": "milk1",
+									"invertAxis": "xy",
+									"translate": [0, -2, -2.5],
+									"rotate": [55, 0, 0],
+									"boxes": [
+										{"coordinates": [-3, 3.09731, -4.42342, 6, 2, 2], "textureOffset": [0, 116], "sizeAdd": -0.001}
+									]
+								},
+								{
+									"id": "milk2",
+									"invertAxis": "xy",
+									"translate": [0, -1, -2.5],
+									"rotate": [-50, 0, 0],
+									"boxes": [
+										{"coordinates": [-3, -0.52895, 2.13664, 6, 2, 2], "textureOffset": [0, 124], "sizeAdd": -0.001}
+									]
+								},
+								{
+									"id": "led1",
+									"invertAxis": "xy",
+									"translate": [0, -19, 0],
+									"submodels": [
+										{
+											"id": "left_hand2",
+											"invertAxis": "xy",
+											"translate": [-3.5, 23, 0],
+											"boxes": [
+												{"coordinates": [-2, -10.4, -1, 2, 12, 2], "textureOffset": [44, 64], "sizeAdd": 0.01}
+											]
+										},
+										{
+											"id": "right_hand2",
+											"invertAxis": "xy",
+											"translate": [3.5, 23, 0],
+											"boxes": [
+												{"coordinates": [0, -10.4, -1, 2, 12, 2], "textureOffset": [36, 64], "sizeAdd": 0.01}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "Right_leg",
+							"invertAxis": "xy",
+							"translate": [2, 12, 0],
+							"boxes": [
+								{"coordinates": [-1.5, -12, -1.5, 3, 14, 3], "textureOffset": [52, 81], "sizeAdd": -0.01}
+							]
+						},
+						{
+							"id": "Left_leg",
+							"invertAxis": "xy",
+							"translate": [-2, 12, 0],
+							"boxes": [
+								{"coordinates": [-1.5, -12, -1.5, 3, 14, 3], "textureOffset": [52, 64], "sizeAdd": -0.01}
+							]
+						},
+						{
+							"id": "head1",
+							"invertAxis": "xy",
+							"translate": [0, 24, 0],
+							"boxes": [
+								{"coordinates": [-4.5, 3.5, -4, 9, 7, 7], "textureOffset": [0, 77]},
+								{"coordinates": [-4, 2.5, -3.5, 8, 8, 7], "textureOffset": [1, 62]},
+								{"coordinates": [-4, -9.5, 1.8, 8, 12, 0], "textureOffset": [4, 5]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"head1.rx": "(sin(time / 10) * 0.025) + head.rx",
+					"head1.ry": "head.ry",
+					"head1.rz": "head.rz",
+					"head.ty": "1000000",
+					"body1.ry": "if(is_riding, 0 , head.ry * 0.2)",
+					"body1.rz": "if(is_riding, 0 , head.rz * 0.2)",
+					"body_bottom2.ty": "if(is_riding, 5, 0)",
+					"body_bottom1.rx": "if(is_riding, -1.4,0)",
+					"Left_leg.rx": "if(is_riding, -1.4, -sin(limb_swing)*limb_speed )",
+					"Right_leg.rx": "if(is_riding, Left_leg.rx, sin(limb_swing)*limb_speed )",
+					"right_hand2.rz": "if(is_in_water,0,(sin(time / 10) * 0.08)+(0.15))",
+					"left_hand2.rz": "if(is_in_water,0,-right_hand2.rz)",
+					"right_hand2.rx": "if(is_riding, 0 , -sin(limb_swing)*limb_speed)",
+					"left_hand2.rx": "if(is_riding, 0 , sin(limb_swing)*limb_speed)"
+				}
+			]
+		},
+		{
+			"part": "left_hand",
+			"id": "left_hand",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"rotate": [0, 0, -50]
+		},
+		{
+			"part": "right_hand",
+			"id": "right_hand",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"rotate": [0, 0, -50]
+		}
+	]
+}

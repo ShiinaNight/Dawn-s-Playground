@@ -12,7 +12,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dawn:currencies/gold",
+                    "name": "dawn:currencies/silver",
                     "weight": 1
                 },
                 {
@@ -37,7 +37,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "dawn:currencies/gold",
+                    "name": "dawn:currencies/silver",
                     "weight": 1
                 },
                 {

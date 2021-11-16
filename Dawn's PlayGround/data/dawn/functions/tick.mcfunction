@@ -33,6 +33,9 @@ execute as @e[type=!player,type=!item,type=!falling_block] run function dawn:mob
 function dawn:craft_on_floor/tick
 # 符文袋相关
 execute as @a run function dawn:rune_bag/tick
+# 交易相关
+execute as @e[type=item] run function dawn:trade/tick
+
 # 测试
 execute as @e[nbt={Fire:20400s}] run say "被dawn:test_sword击中"
 

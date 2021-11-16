@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:package_full\",display:{Name:'{\"text\":\"补给包（满载）\",\"italic\":false}'}}"
+                            "tag": "{id:\"dawn:package_full\",display:{Name:'{\"text\":\"补给箱（满载）\",\"italic\":false}'}}"
                         },
                         {
                             "function": "minecraft:set_loot_table",

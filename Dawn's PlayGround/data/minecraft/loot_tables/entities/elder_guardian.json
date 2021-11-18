@@ -2,7 +2,7 @@
     "type": "minecraft:entity",
     "pools": [
         {
-            "rolls": 100,
+            "rolls": 20,
             "bonus_rolls": 1,
             "conditions": [
                 {
@@ -18,12 +18,12 @@
                 {
                     "type": "minecraft:loot_table",
                     "name": "minecraft:empty",
-                    "weight": 9
+                    "weight": 2
                 }
             ]
         },
         {
-            "rolls": 100,
+            "rolls": 20,
             "bonus_rolls": 1,
             "conditions": [
                 {
@@ -43,7 +43,7 @@
                 {
                     "type": "minecraft:loot_table",
                     "name": "minecraft:empty",
-                    "weight": 9
+                    "weight": 2
                 }
             ]
         },

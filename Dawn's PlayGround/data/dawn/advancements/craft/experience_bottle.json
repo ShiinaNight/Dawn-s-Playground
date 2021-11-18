@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dawn:experience_bottle"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dawn:craft/experience_bottle"
+    }
+}

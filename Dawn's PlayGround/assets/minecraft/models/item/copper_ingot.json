@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/copper_ingot"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 12771003 }, "model": "dawn:coin/copper"}
+	]
+}

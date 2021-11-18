@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:silver\",display:{Name:'{\"text\":\"银币\",\"italic\":false,\"color\":\"gray\"}'}}"
+                            "tag": "{id:\"dawn:silver\",CustomModelData:12771102,display:{Name:'{\"text\":\"银币\",\"italic\":false,\"color\":\"gray\"}'}}"
                         }
                     ]
                 }

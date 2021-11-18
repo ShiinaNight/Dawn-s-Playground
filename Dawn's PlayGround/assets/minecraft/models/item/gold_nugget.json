@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/gold_nugget"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 12771001 }, "model": "dawn:coin/gold"}
+	]
+}

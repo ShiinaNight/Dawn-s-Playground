@@ -5,11 +5,11 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:iron_nugget",
+                    "name": "minecraft:copper_ingot",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:silver\",display:{Name:'{\"text\":\"银币\",\"italic\":false,\"color\":\"gray\"}'}}"
+                            "tag": "{id:\"dawn:copper\",CustomModelData:12771103,display:{Name:'{\"text\":\"铜币\",\"italic\":false,\"color\":\"#CA7E38\"}'}}"
                         }
                     ]
                 }

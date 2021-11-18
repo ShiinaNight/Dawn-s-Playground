@@ -23,6 +23,12 @@ scoreboard objectives add dawnParticle dummy
 scoreboard objectives add HurtByTimestamp dummy
 # 11.用于箭矢加速的计分板
 scoreboard objectives add dawnArrowBoosted dummy
+# 12.技力
+scoreboard objectives add dawnSkillPoint dummy
+# 13.连续潜行时间
+scoreboard objectives add dawnKeepSnkTim dummy
+# 14.是否在潜行
+scoreboard objectives add dawnIsSnking minecraft.custom:minecraft.sneak_time
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

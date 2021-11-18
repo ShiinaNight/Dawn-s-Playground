@@ -24,12 +24,14 @@ execute as @s[predicate=dawn:head/exoskeleton_mk3] run function dawn:equipments/
 # execute as @s[predicate=dawn:mainhand/sun_sword] run function dawn:weapons/sun_sword
 # 「诅咒」相关
 execute as @s[predicate=dawn:mainhand/curse] run function dawn:weapons/curse
+# 铁驭靴子相关
+execute as @s[predicate=dawn:feet/pilot_boots] run function dawn:equipments/pilot_boots
 
 # waila相关
 function waila:tick
 
 # 宝石系统
-function gem:tick
+function dawn_gem:tick
 
 # 检测所指方块
 execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_block

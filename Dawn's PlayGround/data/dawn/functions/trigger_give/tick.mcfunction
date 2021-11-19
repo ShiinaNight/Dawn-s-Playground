@@ -1,0 +1,1 @@
+function dawn:trigger_give/pilot_helmet_invisibility_extension

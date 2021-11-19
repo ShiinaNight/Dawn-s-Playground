@@ -2,15 +2,12 @@
 scoreboard players add @a dawnTwoTick 1
 scoreboard players set @a[scores={dawnTwoTick=2..}] dawnTwoTick 0
 
-
-
 # dawnSnkTim周期减少
 scoreboard players remove @a[scores={dawnTwoTick=0,dawnSnkTim=1..}] dawnSnkTim 1
 
 # 检测持续潜行时间
 function dawn:players/is_sneaking
 function dawn:players/keep_sneaking_time
-
 
 # DeathCountDown持续减少
 scoreboard players remove @e[scores={DeathCountDown=-9..}] DeathCountDown 1
@@ -19,8 +16,8 @@ scoreboard players remove @e[scores={dawnParticle=1..}] dawnParticle 1
 # dawnTimStop持续减少
 scoreboard players remove @e[scores={dawnTimStop=1..}] dawnTimStop 1
 
-# dawnSkillPoint持续增加（上限400,20s充满）
-execute as @a unless entity @s[scores={dawnSkillPoint=400..}] run scoreboard players add @a[scores={dawnSkillPoint=..400}] dawnSkillPoint 1
+# dawnSkillPoint在技能未发动时持续增加（上限400,20s充满）
+execute as @a unless score @s dawnSkillPoint matches 400.. unless score @s dawnSkillTim matches 1.. run scoreboard players add @a[scores={dawnSkillPoint=..400}] dawnSkillPoint 1
 # DeathCountDown特效
 # execute at @e[scores={DeathCountDown=0..}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 2 normal @a
 execute at @e[scores={DeathCountDown=0..}] run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0.5 5 normal @a

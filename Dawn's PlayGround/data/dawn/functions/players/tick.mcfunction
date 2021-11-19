@@ -33,5 +33,8 @@ function waila:tick
 # 宝石系统
 function dawn_gem:tick
 
+# 给予触发器
+function dawn:trigger_give/tick
+
 # 检测所指方块
 execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function dawn:players/pointing_block

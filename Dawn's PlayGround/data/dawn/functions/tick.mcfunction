@@ -17,7 +17,7 @@ scoreboard players remove @e[scores={dawnParticle=1..}] dawnParticle 1
 scoreboard players remove @e[scores={dawnTimStop=1..}] dawnTimStop 1
 
 # dawnSkillPoint在技能未发动时持续增加（上限400,20s充满）
-execute as @a unless score @s dawnSkillPoint matches 400.. unless score @s dawnSkillTim matches 1.. run scoreboard players add @a[scores={dawnSkillPoint=..400}] dawnSkillPoint 1
+execute as @a unless score @s dawnSkillPoint matches 400.. unless score @s dawnSkillTim matches 1.. run scoreboard players add @s dawnSkillPoint 1
 # DeathCountDown特效
 # execute at @e[scores={DeathCountDown=0..}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 2 normal @a
 execute at @e[scores={DeathCountDown=0..}] run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0.5 5 normal @a

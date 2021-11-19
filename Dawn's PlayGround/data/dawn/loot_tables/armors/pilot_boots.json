@@ -21,23 +21,6 @@
                                     "text": "跳跃辅助模块： 在线",
                                     "color": "aqua",
                                     "italic": false
-                                },
-                                {
-                                    "text": "",
-                                    "bold": false,
-                                    "italic": true,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
-                                },
-                                {
-                                    "text": "+20% 移动速度",
-                                    "color": "blue",
-                                    "bold": false,
-                                    "italic": false,
-                                    "underlined": false,
-                                    "strikethrough": false,
-                                    "obfuscated": false
                                 }
                             ]
                         },
@@ -49,7 +32,7 @@
                                     "attribute": "generic.movement_speed",
                                     "operation": "multiply_total",
                                     "amount": 0.2,
-                                    "slot": "head"
+                                    "slot": "feet"
                                 }
                             ]
                         }

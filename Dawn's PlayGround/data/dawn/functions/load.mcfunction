@@ -26,7 +26,7 @@ scoreboard objectives add dawnArrowBoosted dummy
 # 12.技力
 scoreboard objectives add dawnSkillPoint dummy
 # 13.连续潜行时间
-scoreboard objectives add dawnKeepSnkTim dummy
+scoreboard objectives add dawnKeepSnkTim minecraft.custom:minecraft.sneak_time
 # 14.是否在潜行
 scoreboard objectives add dawnIsSnking minecraft.custom:minecraft.sneak_time
 
@@ -42,3 +42,6 @@ function ud:load
 function udib:load
 # 五、高亮显示
 function waila:load
+
+# 六、最多函数
+gamerule maxCommandChainLength 200000

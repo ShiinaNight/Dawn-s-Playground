@@ -5,6 +5,9 @@ scoreboard players set @a[scores={dawnTwoTick=2..}] dawnTwoTick 0
 # dawnSnkTim周期减少
 scoreboard players remove @a[scores={dawnTwoTick=0,dawnSnkTim=1..}] dawnSnkTim 1
 
+# dawnSkillTim持续减少
+scoreboard players remove @a[scores={dawnSkillTim=1..}] dawnSkillTim 1
+
 # 检测持续潜行时间
 function dawn:players/is_sneaking
 function dawn:players/keep_sneaking_time

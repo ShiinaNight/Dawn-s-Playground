@@ -8,3 +8,4 @@ scoreboard objectives add wailaMotionZ dummy
 scoreboard objectives add wailaFire dummy
 scoreboard objectives add wailaAir dummy
 scoreboard objectives add wailaFallDis dummy
+scoreboard objectives add wailaDisplayMode dummy

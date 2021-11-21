@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 10,
+            "bonus_rolls": 0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dawn:currencies/gold"
+                }
+            ]
+        },
+        {
+            "rolls": 10,
+            "bonus_rolls": 0,
+            "conditions": [
+                {
+                    "condition": "minecraft:killed_by_player"
+                },
+                {
+                    "condition": "minecraft:reference",
+                    "name": "dawn:rune_bag/greed"
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "dawn:currencies/gold"
+                }
+            ]
+        }
+    ]
+}

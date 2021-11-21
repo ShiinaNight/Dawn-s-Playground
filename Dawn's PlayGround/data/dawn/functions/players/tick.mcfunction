@@ -27,6 +27,9 @@ execute as @s[predicate=dawn:mainhand/curse] run function dawn:weapons/curse
 # 铁驭靴子相关
 execute as @s[predicate=dawn:feet/pilot_boots] run function dawn:equipments/pilot_boots
 
+# 装弹相关
+function dawn:reload/tick
+
 # waila相关
 function waila:tick
 

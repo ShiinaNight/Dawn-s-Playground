@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:druzhina_34\",CustomModelData:12770024,display:{Name:'{\"text\":\"俄罗斯亲卫兵\",\"italic\":false}'}}"
+                            "tag": "{id:\"dawn:druzhina_34\",CustomModelData:12770024,display:{Name:'{\"text\":\"俄罗斯亲卫兵\",\"italic\":false}'},Charged:true,ChargedProjectiles:[{id:\"minecraft:tipped_arrow\",Count:1,tag:{id:\"_50_russian\",display:{Name:'{\"text\":\".50 Russian (12.7x108mm)\",\"italic\":false,\"color\":\"yellow\"}'},CustomPotionColor:2}}]}"
                         },
                         {
                             "function": "set_lore",

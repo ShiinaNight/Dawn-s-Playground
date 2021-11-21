@@ -46,6 +46,8 @@ function dawn:craft_on_floor/tick
 execute as @a run function dawn:rune_bag/tick
 # 交易相关
 execute as @e[type=item] run function dawn:trade/tick
+# 子弹相关
+execute as @e run function dawn:bullet/tick
 
 # 测试
 execute as @e[nbt={Fire:20400s}] run say "被dawn:test_sword击中"

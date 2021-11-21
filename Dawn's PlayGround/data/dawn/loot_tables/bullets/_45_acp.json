@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"_45_acp\",display:{Name:'{\"text\":\".45 ACP (11.43x23mm)\",\"italic\":false,\"color\":\"yellow\"}'},CustomPotionColor:1}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"test_bullet\",display:{Name:'{\"text\":\"测试子弹\",\"italic\":false,\"color\":\"yellow\"}'},CustomPotionColor:0}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

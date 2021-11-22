@@ -48,6 +48,8 @@ execute as @a run function dawn:rune_bag/tick
 execute as @e[type=item] run function dawn:trade/tick
 # 子弹相关
 execute as @e run function dawn:bullet/tick
+# 枪械上弹相关
+execute as @a run function dawn:ammo_load/tick
 
 # 测试
 execute as @e[nbt={Fire:20400s}] run say "被dawn:test_sword击中"

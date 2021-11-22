@@ -5,6 +5,7 @@ scoreboard objectives add dawnSnkTim minecraft.custom:minecraft.sneak_time
 scoreboard objectives add golden_sword minecraft.used:minecraft.golden_sword
 scoreboard objectives add netherite_sword minecraft.used:minecraft.netherite_sword
 scoreboard objectives add iron_sword minecraft.used:minecraft.iron_sword
+scoreboard objectives add crossbow minecraft.used:minecraft.crossbow
 # 3.技能持续时间
 scoreboard objectives add dawnSkillTim dummy
 # 4.眩晕时间
@@ -45,3 +46,11 @@ function waila:load
 
 # 六、最多函数
 gamerule maxCommandChainLength 200000
+
+# 七、枪械子弹和上弹延迟
+# 1.俄罗斯亲卫兵
+scoreboard objectives add dawnAmmoDzn34 dummy
+scoreboard objectives add dawnDelayDzn34 dummy
+# 2.P90
+scoreboard objectives add dawnAmmoP90 dummy
+scoreboard objectives add dawnDelayP90 dummy

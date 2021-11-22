@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"m193\",display:{Name:'{\"text\":\"M193 (5.56×45mm)\",\"italic\":false,\"color\":\"yellow\"}'},CustomPotionColor:3}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "nbt": "{id:'_452_magnum_7x_clip'}",
+                "count": 1
+            }
+        }
+    }
+}

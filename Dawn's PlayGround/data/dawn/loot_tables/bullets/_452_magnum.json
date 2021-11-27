@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"_452_magnum\",display:{Name:'{\"text\":\".452 Magnum\",\"italic\":false,\"color\":\"yellow\"}'},CustomPotionColor:5}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

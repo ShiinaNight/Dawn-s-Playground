@@ -54,3 +54,11 @@ scoreboard objectives add dawnDelayDzn34 dummy
 # 2.P90
 scoreboard objectives add dawnAmmoP90 dummy
 scoreboard objectives add dawnDelayP90 dummy
+# 3.打击者
+scoreboard objectives add dawnAmmoStriker dummy
+scoreboard objectives add dawnDelayStriker dummy
+
+# 八、南极
+scoreboard objectives add SPTarget dummy
+scoreboard objectives add SPReady dummy
+scoreboard objectives add SPReloading dummy

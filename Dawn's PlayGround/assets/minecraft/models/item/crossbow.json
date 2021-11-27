@@ -60,6 +60,7 @@
             "model": "item/crossbow_firework"
         },
 		{ "predicate": { "custom_model_data": 12770014 }, "model": "dawn:gun/SVD_remove_optical_sight"},
-		{ "predicate": { "custom_model_data": 12770024 }, "model": "dawn:gun/druzhina_34"}
+		{ "predicate": { "custom_model_data": 12770024 }, "model": "dawn:gun/druzhina_34"},
+		{ "predicate": { "custom_model_data": 12770025 }, "model": "dawn:gun/striker"}
     ]
 }

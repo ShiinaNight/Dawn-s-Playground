@@ -29,6 +29,8 @@ execute as @s[predicate=dawn:feet/pilot_boots] run function dawn:equipments/pilo
 
 # 装弹相关
 function dawn:reload/tick
+# 子弹发射相关
+execute as @a run function dawn:gun_shot/tick
 
 # waila相关
 function waila:tick

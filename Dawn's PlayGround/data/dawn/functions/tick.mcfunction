@@ -36,6 +36,9 @@ kill @e[scores={DeathCountDown=0}]
 # function ud:ud_dealt_player
 function ud:ud_dealt_uplayer
 
+# 子弹相关
+execute as @e run function dawn:bullet/tick
+
 # 玩家相关
 execute as @e[type=player] run function dawn:players/tick
 # 生物相关
@@ -46,8 +49,7 @@ function dawn:craft_on_floor/tick
 execute as @a run function dawn:rune_bag/tick
 # 交易相关
 execute as @e[type=item] run function dawn:trade/tick
-# 子弹相关
-execute as @e run function dawn:bullet/tick
+
 # 枪械上弹相关
 execute as @a run function dawn:ammo_load/tick
 

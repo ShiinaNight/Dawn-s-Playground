@@ -7,3 +7,4 @@ execute as @s[nbt={Color:2},nbt={ShotFromCrossbow:true}] run function dawn:bulle
 execute as @s[nbt={Color:3},nbt={ShotFromCrossbow:true}] run function dawn:bullet/m193
 execute as @s[nbt={Color:4},nbt={ShotFromCrossbow:true}] run function dawn:bullet/ss90
 execute as @s[nbt={Color:5},nbt={ShotFromCrossbow:true}] run function dawn:bullet/_452_magnum
+execute as @s[nbt={Color:6},nbt={ShotFromCrossbow:true}] run function dawn:bullet/_90_warper

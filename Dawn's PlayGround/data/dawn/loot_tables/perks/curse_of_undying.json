@@ -15,7 +15,7 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "增加50%生命值上限",
+                                    "text": "获得100%伤害减免",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,

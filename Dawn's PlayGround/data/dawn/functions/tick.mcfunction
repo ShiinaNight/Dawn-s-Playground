@@ -49,6 +49,8 @@ function dawn:craft_on_floor/tick
 execute as @a run function dawn:rune_bag/tick
 # 交易相关
 execute as @e[type=item] run function dawn:trade/tick
+# 南极
+function dawn:south_pole/tick
 
 # 枪械上弹相关
 execute as @a run function dawn:ammo_load/tick

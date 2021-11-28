@@ -1,5 +1,5 @@
 # 等级提升相关
-execute as @s[nbt=!{Dimension:"dawn_arena:item_test"}] run function dawn:players/level_up
+execute as @s[nbt=!{Dimension:"dawn_arena:item_test"}] unless entity @s[predicate=dawn:rune_bag/arena_emblem] run function dawn:players/level_up
 # 睡美人武器相关
 execute as @s[predicate=dawn:mainhand/sleeping_beauty] run function dawn:weapons/sleeping_beauty
 # 铁驭头盔相关
@@ -31,6 +31,9 @@ execute as @s[predicate=dawn:feet/pilot_boots] run function dawn:equipments/pilo
 function dawn:reload/tick
 # 子弹发射相关
 execute as @a run function dawn:gun_shot/tick
+
+# 给刚重生的玩家回血
+effect give @a[scores={dawnLastDeath=1}] instant_health 1 20 true
 
 # waila相关
 function waila:tick

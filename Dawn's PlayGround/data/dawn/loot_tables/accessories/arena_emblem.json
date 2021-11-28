@@ -1,0 +1,32 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"arena_emblem\",display:{Name:'{\"text\":\"[饰品] 竞技场徽章\",\"italic\":false,\"color\":\"yellow\"}'}}"
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "基础生命值提升至100",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

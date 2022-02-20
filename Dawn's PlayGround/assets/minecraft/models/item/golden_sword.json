@@ -4,6 +4,10 @@
 		"layer0": "item/golden_sword"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 12770001 }, "model": "dawn:sword/sleeping_beauty"}
+		{ "predicate": { "custom_model_data": 12770001 }, "model": "dawn:sword/sleeping_beauty"},
+		{ "predicate": { "custom_model_data": 13770004 }, "model": "theone:four_god_weapons/sword_of_repudiation"},
+        { "predicate": { "custom_model_data": 13770005 }, "model": "theone:four_god_weapons/sword_of_renunciation"},
+        { "predicate": { "custom_model_data": 13770011 }, "model": "theone:before_diamond_items/he_sword_one"},
+        { "predicate": { "custom_model_data": 13770012 }, "model": "theone:before_diamond_items/he_sword_two"}
 	]
 }

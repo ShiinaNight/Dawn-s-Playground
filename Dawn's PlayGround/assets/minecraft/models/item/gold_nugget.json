@@ -4,6 +4,6 @@
 		"layer0": "item/gold_nugget"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 12771001 }, "model": "dawn:coin/gold"}
+		{ "predicate": { "custom_model_data": 12771101 }, "model": "dawn:coin/gold"}
 	]
 }

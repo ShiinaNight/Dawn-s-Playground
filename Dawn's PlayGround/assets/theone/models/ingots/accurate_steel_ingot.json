@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "theone:ingots/accurate_steel_ingot"
+  }
+  
+}

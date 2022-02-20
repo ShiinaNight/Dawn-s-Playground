@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "theone:dark_matters/small_dark_matter"
+    }
+}

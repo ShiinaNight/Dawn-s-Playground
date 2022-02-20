@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"arena_emblem\",display:{Name:'{\"text\":\"[饰品] 竞技场徽章\",\"italic\":false,\"color\":\"yellow\"}'}}"
+                            "tag": "{id:\"arena_emblem\",CustomModelData:12771007,display:{Name:'{\"text\":\"[饰品] 竞技场徽章\",\"italic\":false,\"color\":\"yellow\"}'}}"
                         },
                         {
                             "function": "set_lore",

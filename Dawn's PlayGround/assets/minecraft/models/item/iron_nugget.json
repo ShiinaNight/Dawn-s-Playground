@@ -4,6 +4,6 @@
 		"layer0": "item/iron_nugget"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 12771002 }, "model": "dawn:coin/silver"}
+		{ "predicate": { "custom_model_data": 12771102 }, "model": "dawn:coin/silver"}
 	]
 }

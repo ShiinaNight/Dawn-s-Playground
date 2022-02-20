@@ -5,3 +5,4 @@ execute as @s[predicate=dawn:rune_bag/extra_health] run function dawn:rune_bag/e
 execute as @s[predicate=!dawn:rune_bag/extra_health] run function dawn:rune_bag/extra_health_remove
 execute as @s[predicate=dawn:rune_bag/curse_of_undying] run function dawn:rune_bag/curse_of_undying
 execute as @s[predicate=dawn:rune_bag/arena_emblem,scores={dawnLastDeath=1}] run function dawn:rune_bag/arena_emblem
+execute as @s[predicate=!dawn:rune_bag/arena_emblem,scores={dawnLastDeath=1}] run function dawn:rune_bag/arena_emblem_remove

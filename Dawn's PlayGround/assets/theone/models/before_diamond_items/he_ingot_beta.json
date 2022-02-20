@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "theone:before_diamond_items/he_ingot_beta"
+    }
+}

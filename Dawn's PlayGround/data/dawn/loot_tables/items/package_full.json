@@ -13,7 +13,8 @@
                         },
                         {
                             "function": "minecraft:set_loot_table",
-                            "name": "dawn:gacha_pools/27x"
+                            "name": "dawn:gacha_pools/27x",
+                            "type": "minecraft:chest"
                         }
                     ]
                 }

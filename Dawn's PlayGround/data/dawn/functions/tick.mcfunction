@@ -22,3 +22,6 @@ execute at @e[scores={DeathCountDown=0}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.
 # 立刻杀死DeathCountDown归零的实体///更改：将DeathCountDown归零的实体传送到虚空并杀死
 execute as @e[scores={DeathCountDown=0}] at @s run tp ~ ~-100 ~
 kill @e[scores={DeathCountDown=0}]
+
+# 交易相关
+execute as @e[type=item] run function dawn:trade/tick

@@ -1,0 +1,36 @@
+{
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "layers": [
+                {
+                    "block": "minecraft:air",
+                    "height": 64
+                },
+                {
+                    "block": "minecraft:bedrock",
+                    "height": 1
+                },
+                {
+                    "block": "minecraft:dirt",
+                    "height": 2
+                },
+
+                {
+                    "block": "minecraft:grass_block",
+                    "height": 1
+                }
+            ],
+            "biome": "minecraft:the_void",
+            "structures": {
+                "stronghold": {
+                    "distance": 1000,
+                    "count": 1,
+                    "spread": 0
+                },
+                "structures": {}
+            }
+        }
+    },
+    "type": "minecraft:overworld"
+}

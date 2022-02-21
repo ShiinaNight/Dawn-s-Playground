@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"G#G",
+		"#S#",
+		"G#G"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:arrow"
+		},
+		"S": {
+			"item": "minecraft:glowstone"
+		},
+		"G": {
+			"item": "minecraft:gold_block"
+		}
+	},
+	"result": {
+		"item": "minecraft:spectral_arrow",
+		"count": 4
+	}
+}

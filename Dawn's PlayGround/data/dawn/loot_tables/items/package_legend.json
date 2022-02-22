@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:package_1x\",display:{Name:'{\"text\":\"补给箱（传奇）\",\"italic\":false,\"color\": \"gold\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_loot_table",
+                            "name": "dawn:gacha_pools/legend",
+                            "type": "minecraft:chest"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

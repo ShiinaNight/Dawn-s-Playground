@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:chest",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{id:\"dawn:package_1x\",display:{Name:'{\"text\":\"补给箱（单抽）\",\"italic\":false,\"color\": \"dark_purple\"}'}}"
+                        },
+                        {
+                            "function": "minecraft:set_loot_table",
+                            "name": "dawn:gacha_pools/epic",
+                            "type": "minecraft:chest"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

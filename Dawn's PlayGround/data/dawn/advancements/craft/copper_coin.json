@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dawn:copper_coin"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dawn:craft/copper_coin"
+    }
+}

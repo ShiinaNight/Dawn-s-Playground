@@ -11,6 +11,8 @@ execute as @s[predicate=dawn:mainhand/saint_heart] run function dawn:weapons/sai
 # 铁驭靴子相关
 execute as @s[predicate=dawn:feet/pilot_boots] run function dawn:equipments/pilot_boots
 
+# 芊汐纸鸢特效
+execute as @s[predicate=dawn:mainhand/shutsu_crane] if score @s netherite_sword matches 1.. at @s run function dawn:particles/shutsu_crane
 # 给刚重生的玩家回血
 effect give @a[scores={dawnLastDeath=1}] instant_health 1 20 true
 

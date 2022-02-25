@@ -1,1 +1,0 @@
-execute in dawn:dungeon run tp @s -174.13 15.00 -161.19 -88.80 52.05

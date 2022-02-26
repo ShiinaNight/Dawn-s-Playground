@@ -1,0 +1,1 @@
+setblock ~ ~ ~ dropper[facing=down] replace

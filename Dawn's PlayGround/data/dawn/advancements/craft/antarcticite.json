@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "south_pole:antarcticite"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dawn:craft/antarcticite"
+    }
+}

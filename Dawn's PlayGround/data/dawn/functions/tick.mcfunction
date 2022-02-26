@@ -25,3 +25,6 @@ kill @e[scores={DeathCountDown=0}]
 
 # 交易相关
 execute as @e[type=item] run function dawn:trade/tick
+
+# 南极
+execute if entity @a in dawn:cave run function south_pole:tick

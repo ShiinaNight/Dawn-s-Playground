@@ -1,3 +1,3 @@
-setblock ~ ~ ~ dropper replace
-loot give @s loot dawn_tech:mechanical_gear
-loot give @s loot dawn:weapons/rage_of_ubisoft
+setblock ~ ~ ~ dropper[facing=west] replace
+loot spawn ~ ~1 ~ loot dawn_tech:mechanical_gear
+loot spawn ~ ~1 ~ loot dawn:weapons/rage_of_ubisoft

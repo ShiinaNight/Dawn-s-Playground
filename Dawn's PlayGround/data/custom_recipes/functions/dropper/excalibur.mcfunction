@@ -1,3 +1,3 @@
-setblock ~ ~ ~ dropper replace
-loot give @s loot dawn_tech:mechanical_gear
-loot give @s loot dawn:weapons/excalibur
+setblock ~ ~ ~ dropper[facing=west] replace
+loot spawn ~ ~1 ~ loot dawn_tech:mechanical_gear
+loot spawn ~ ~1 ~ loot dawn:weapons/excalibur

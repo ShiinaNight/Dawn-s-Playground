@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+                "nbt": "{id:'dawn:iron_hammer'}"
+            }
+        }
+    ]
+}

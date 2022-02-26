@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dawn:iron_hammer"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dawn:craft/iron_hammer"
+    }
+}

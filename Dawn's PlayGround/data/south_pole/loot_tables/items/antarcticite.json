@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"antarcticite\",display:{Name:'{\"text\":\"南极石\",\"italic\":false,\"color\":\"aqua\"}'}}"
+                            "tag": "{id:\"south_pole:antarcticite\",display:{Name:'{\"text\":\"南极石\",\"italic\":false,\"color\":\"aqua\"}'}}"
                         }
                     ]
                 }

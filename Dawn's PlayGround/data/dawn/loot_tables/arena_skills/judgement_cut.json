@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"judgement_cut\",CustomModelData:12771007,display:{Name:'{\"text\":\"[技能] 次元斩\",\"italic\":false,\"color\":\"yellow\"}'}}"
+                            "tag": "{id:\"judgement_cut\",CustomModelData:12771008,display:{Name:'{\"text\":\"[技能] 次元斩\",\"italic\":false,\"color\":\"yellow\"}'}}"
                         },
                         {
                             "function": "set_lore",

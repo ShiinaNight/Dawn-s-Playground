@@ -1,0 +1,45 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dawn:dices/numbers/0"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:dices/numbers/1"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:dices/numbers/2"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:dices/numbers/3"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:dices/numbers/4"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:dices/numbers/5"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:dices/numbers/6"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:dices/numbers/7"
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:dices/numbers/8"
+                }
+            ]
+        }
+    ]
+}

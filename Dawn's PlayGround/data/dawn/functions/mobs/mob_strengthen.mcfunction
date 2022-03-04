@@ -15,8 +15,12 @@ execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=cave_s
 # 地狱生物（猪灵，僵尸猪灵，烈焰人，凋零骷髅）&刌民类/200HP
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=piglin,tag=!boss,tag=!special] run function dawn:mobs/pillagers_and_nethers_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=zombified_piglin,tag=!boss,tag=!special] run function dawn:mobs/pillagers_and_nethers_strengthen
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=zombified_piglin,tag=!boss,tag=!special] run scoreboard players set @s dawnUnDead 1
+
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=blaze,tag=!boss,tag=!special] run function dawn:mobs/pillagers_and_nethers_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=wither_skeleton,tag=!boss,tag=!special] run function dawn:mobs/pillagers_and_nethers_strengthen
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=wither_skeleton,tag=!boss,tag=!special] run scoreboard players set @s dawnUnDead 1
+
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=pillager,tag=!boss,tag=!special] run function dawn:mobs/pillagers_and_nethers_strengthen
 # 精英怪类（末影人，猪灵蛮兵，唤魔者，守卫者）/300HP
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=enderman,tag=!boss,tag=!special] run function dawn:mobs/infernal_mobs_strengthen
@@ -31,3 +35,5 @@ execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=ender_
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=wither,tag=!boss,tag=!special] run function dawn:mobs/wither_strengthen
 # 远古守卫者/1024HP,80%减伤
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=elder_guardian,tag=!boss,tag=!special] run function dawn:mobs/elder_guardian_strengthen
+# 幻翼
+execute as @e[type=phantom] run scoreboard players set @s dawnUnDead 1

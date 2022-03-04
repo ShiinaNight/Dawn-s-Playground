@@ -36,6 +36,8 @@ scoreboard objectives add dawnIsSnking minecraft.custom:minecraft.sneak_time
 scoreboard objectives add dawnPlayerHP health
 # 16.距离上次死亡的时间
 scoreboard objectives add dawnLastDeath minecraft.custom:minecraft.time_since_death
+# 17.用于判定亡灵生物
+scoreboard objectives add dawnUnDead dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

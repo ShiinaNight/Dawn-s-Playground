@@ -19,3 +19,6 @@ tellraw @p [{"selector":"@s","color":"aqua"},{"text":"的属性：剩余","color
 
 # 归零
 scoreboard players set @s udibDarkFlameDMG 0
+summon armor_stand ~ ~ ~ {Invisible:1b}
+
+data modify block ~1 ~ ~ Items[1].tag.Tags append value "arena"

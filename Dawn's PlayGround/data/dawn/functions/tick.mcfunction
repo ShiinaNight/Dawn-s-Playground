@@ -16,7 +16,7 @@ execute as @a run function dawn:rune_bag/tick
 # 生物相关
 execute as @e[type=!player,type=!item,type=!falling_block] run function dawn:mobs/tick
 # 竞技场技能相关
-function dawn:arena/tick
+function dawn_skills:tick
 
 # dawnParticle持续减少
 scoreboard players remove @e[scores={dawnParticle=1..}] dawnParticle 1

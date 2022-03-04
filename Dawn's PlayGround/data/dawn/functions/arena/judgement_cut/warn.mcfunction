@@ -1,2 +1,0 @@
-scoreboard players set @s skill_trigger 0
-title @s actionbar [{"text":"技力不足 ","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"score":{"objective":"dawnSkillPoint","name":"@s"},"color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"/400","color":"red","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]

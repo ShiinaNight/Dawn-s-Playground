@@ -13,8 +13,8 @@ execute as @s[predicate=dawn:feet/pilot_boots] run function dawn:equipments/pilo
 
 # 竞技场技能
 # 次元斩
-execute as @s[predicate=dawn:offhand/skills/judgement_cut] if score @s dawnSkillPoint matches 400.. if score @s skill_trigger matches 1.. run function dawn:arena/judgement_cut/start
-execute as @s[predicate=dawn:offhand/skills/judgement_cut] unless score @s dawnSkillPoint matches 400.. if score @s skill_trigger matches 1.. run function dawn:arena/judgement_cut/warn
+execute as @s[predicate=dawn:offhand/skills/judgement_cut] if score @s dawnSkillPoint matches 400.. if score @s skill_trigger matches 1.. run function dawn_skills:judgement_cut/start
+execute as @s[predicate=dawn:offhand/skills/judgement_cut] unless score @s dawnSkillPoint matches 400.. if score @s skill_trigger matches 1.. run function dawn_skills:judgement_cut/warn
 
 # 芊汐纸鸢特效
 execute as @s[predicate=dawn:mainhand/shutsu_crane] if score @s netherite_sword matches 1.. at @s run function dawn:particles/shutsu_crane

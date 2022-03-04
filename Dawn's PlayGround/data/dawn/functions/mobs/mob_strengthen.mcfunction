@@ -4,10 +4,11 @@ execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=zombie
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=zombie_villager,tag=!boss,tag=!special] run function dawn:mobs/zombies_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=husk,tag=!boss,tag=!special] run function dawn:mobs/zombies_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=drowned,tag=!boss,tag=!special] run function dawn:mobs/zombies_strengthen
-# 骷髅类&苦力怕/100HP
-execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=creeper,tag=!boss,tag=!special] run function dawn:mobs/skeletons_and_creepers_strengthen
-execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=skeleton,tag=!boss,tag=!special] run function dawn:mobs/skeletons_and_creepers_strengthen
-execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=stray,tag=!boss,tag=!special] run function dawn:mobs/skeletons_and_creepers_strengthen
+# 骷髅类/100HP
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=skeleton,tag=!boss,tag=!special] run function dawn:mobs/skeletons_strengthen
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=stray,tag=!boss,tag=!special] run function dawn:mobs/skeletons_strengthen
+# 苦力怕/100HP
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=creeper,tag=!boss,tag=!special] run function dawn:mobs/creepers_strengthen
 # 蜘蛛类&恶魂/50HP
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=ghast,tag=!boss,tag=!special] run function dawn:mobs/spiders_and_ghast_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=spider,tag=!boss,tag=!special] run function dawn:mobs/spiders_and_ghast_strengthen
@@ -34,3 +35,5 @@ execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=wither
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=elder_guardian,tag=!boss,tag=!special] run function dawn:mobs/elder_guardian_strengthen
 # 幻翼
 execute as @e[type=phantom] run scoreboard players set @s dawnUnDead 1
+# 标记公会门卫为亡灵
+execute as @e[tag=guild_guard] unless score @s dawnUnDead matches 1 run scoreboard players set @s dawnUnDead 1

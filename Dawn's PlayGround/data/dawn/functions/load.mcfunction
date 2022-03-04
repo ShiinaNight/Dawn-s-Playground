@@ -38,6 +38,12 @@ scoreboard objectives add dawnPlayerHP health
 scoreboard objectives add dawnLastDeath minecraft.custom:minecraft.time_since_death
 # 17.用于判定亡灵生物
 scoreboard objectives add dawnUnDead dummy
+# 18.裂位斩目标
+scoreboard objectives add dawnFlashTarget dummy
+# 19.临时·find中的命令是否成功执行
+scoreboard objectives add dawnTemper1 dummy
+# 19.临时·防止裂位斩标记自己
+scoreboard objectives add dawnTemper2 dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

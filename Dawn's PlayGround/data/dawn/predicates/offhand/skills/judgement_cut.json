@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "offhand": {
+                "nbt": "{id:'judgement_cut'}",
+                "count": 1
+            }
+        }
+    }
+}

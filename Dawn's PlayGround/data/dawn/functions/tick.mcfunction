@@ -2,12 +2,21 @@
 function dawn:players/is_sneaking
 function dawn:players/keep_sneaking_time
 
+# dawnSkillTim持续减少
+scoreboard players remove @a[scores={dawnSkillTim=1..}] dawnSkillTim 1
+
+# dawnSkillPoint在技能未发动时持续增加（上限400,20s充满）
+execute as @a unless score @s dawnSkillPoint matches 400.. unless score @s dawnSkillTim matches 1.. run scoreboard players add @s dawnSkillPoint 1
+
+
 # 玩家相关
 execute as @e[type=player] run function dawn:players/tick
 # 符文袋相关
 execute as @a run function dawn:rune_bag/tick
 # 生物相关
 execute as @e[type=!player,type=!item,type=!falling_block] run function dawn:mobs/tick
+# 竞技场技能相关
+function dawn:arena/skills/tick
 
 # dawnParticle持续减少
 scoreboard players remove @e[scores={dawnParticle=1..}] dawnParticle 1
@@ -15,13 +24,12 @@ scoreboard players remove @e[scores={dawnParticle=1..}] dawnParticle 1
 # DeathCountDown持续减少
 scoreboard players remove @e[scores={DeathCountDown=-9..}] DeathCountDown 1
 # DeathCountDown特效
-# execute at @e[scores={DeathCountDown=0..}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 2 normal @a
-execute at @e[scores={DeathCountDown=0..}] run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0.5 5 normal @a
-execute at @e[scores={DeathCountDown=0}] run particle soul_fire_flame ~ ~1 ~ 0.4 0.4 0.4 0.5 30 normal @a
-execute at @e[scores={DeathCountDown=0}] run particle soul ~ ~1 ~ 0.2 0.2 0.2 0.1 20 normal @a
+execute as @e[scores={DeathCountDown=0..},tag=!no_particle] run function dawn:particles/death_count_down
 # 立刻杀死DeathCountDown归零的实体///更改：将DeathCountDown归零的实体传送到虚空并杀死
 execute as @e[scores={DeathCountDown=0}] at @s run tp ~ ~-100 ~
 kill @e[scores={DeathCountDown=0}]
+# 根据标签设置DeathCountDown
+execute as @e[tag=dcd_5s] run function dawn:set_score/death_count_down/5s
 
 # 交易相关
 execute as @e[type=item] run function dawn:trade/tick

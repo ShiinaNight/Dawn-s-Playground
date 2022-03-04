@@ -6,6 +6,8 @@ scoreboard objectives add golden_sword minecraft.used:minecraft.golden_sword
 scoreboard objectives add netherite_sword minecraft.used:minecraft.netherite_sword
 scoreboard objectives add iron_sword minecraft.used:minecraft.iron_sword
 scoreboard objectives add crossbow minecraft.used:minecraft.crossbow
+scoreboard objectives add skill_trigger minecraft.used:minecraft.carrot_on_a_stick
+
 # 3.技能持续时间
 scoreboard objectives add dawnSkillTim dummy
 # 4.眩晕时间

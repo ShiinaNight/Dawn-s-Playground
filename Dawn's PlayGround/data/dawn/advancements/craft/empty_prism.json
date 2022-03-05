@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "dawn:empty_prism"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dawn:craft/empty_prism"
+    }
+}

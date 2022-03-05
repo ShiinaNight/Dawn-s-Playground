@@ -4,6 +4,8 @@
 		"layer0": "item/diamond"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 12770027 }, "model": "dawn:item/empty_prism"}
+		{ "predicate": { "custom_model_data": 12770027 }, "model": "dawn:item/empty_prism"},
+		{ "predicate": { "custom_model_data": 12770028 }, "model": "dawn:item/ocean_prism"},
+		{ "predicate": { "custom_model_data": 12770029 }, "model": "dawn:item/crash_prism"}
 	]
 }

@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:empty_prism\",CustomModelData:12770027,display:{Name:'{\"text\":\"空白棱镜\",\"italic\":false,\"color\":\"aqua\"}'}}"
+                            "tag": "{id:\"dawn:ocean_prism\",CustomModelData:12770028,display:{Name:'{\"text\":\"海洋棱镜\",\"italic\":false,\"color\":\"aqua\"}'}}"
                         }
                     ]
                 }

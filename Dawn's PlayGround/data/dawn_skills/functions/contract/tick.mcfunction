@@ -1,0 +1,2 @@
+execute as @a[predicate=dawn:offhand/skills/contract] if score @s dawnSkillPoint matches 400.. if score @s skill_trigger matches 1.. run function dawn_skills:contract/start
+execute as @a[predicate=dawn:offhand/skills/contract] unless score @s dawnSkillPoint matches 400.. if score @s skill_trigger matches 1.. run function dawn_skills:contract/warn

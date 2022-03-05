@@ -3,3 +3,6 @@
 
 # 裂位斩
 # function dawn_skills:flash/tick
+
+# 契约
+function dawn_skills:contract/tick

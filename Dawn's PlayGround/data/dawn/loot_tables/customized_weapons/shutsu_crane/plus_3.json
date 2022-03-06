@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"dawn:shutsu_crane_plus_3\",CustomModelData:12770026,HideFlags:2,display:{Name:'{\"text\":\"芊汐纸鸢\",\"italic\":false,\"color\":\"aqua\"}'},Unbreakable:true}"
+                            "tag": "{id:\"dawn:shutsu_crane_plus_3\",CustomModelData:12770026,Tags:[\"shutsu_crane\",\"normal\"],HideFlags:2,display:{Name:'{\"text\":\"芊汐纸鸢\",\"italic\":false,\"color\":\"aqua\"}'},Unbreakable:true}"
                         },
                         {
                             "function": "set_lore",

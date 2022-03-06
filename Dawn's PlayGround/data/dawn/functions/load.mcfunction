@@ -44,6 +44,8 @@ scoreboard objectives add dawnFlashTarget dummy
 scoreboard objectives add dawnTemper1 dummy
 # 19.临时·防止裂位斩标记自己
 scoreboard objectives add dawnTemper2 dummy
+# 20.防止状态切换时对物品数据修改的两条指令同时进行
+scoreboard objectives add dawnTemperDelay dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

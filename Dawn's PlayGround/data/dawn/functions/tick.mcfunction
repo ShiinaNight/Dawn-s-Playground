@@ -18,6 +18,12 @@ execute as @e[type=!player,type=!item,type=!falling_block] run function dawn:mob
 # 竞技场技能相关
 function dawn_skills:tick
 
+# 芊汐纸鸢技能
+execute as @e[type=item,predicate=dawn:item/tags/shutsu_crane] at @s unless score @s dawnTemperDelay matches 1 if entity @a[distance=..1,scores={dawnKeepSnkTim=1..}] run function dawn:skills/shutsu_crane/start
+execute as @e[type=item,predicate=dawn:item/tags/shutsu_crane_overload] at @s unless score @s dawnTemperDelay matches 1 if entity @a[distance=..1,scores={dawnKeepSnkTim=1..}] run function dawn:skills/shutsu_crane/end
+execute as @a[predicate=dawn:inventory/shutsu_crane_overload] run function dawn:skills/shutsu_crane/main
+
+
 # dawnParticle持续减少
 scoreboard players remove @e[scores={dawnParticle=1..}] dawnParticle 1
 

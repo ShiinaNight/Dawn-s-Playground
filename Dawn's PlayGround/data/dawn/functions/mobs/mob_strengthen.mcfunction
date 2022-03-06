@@ -20,11 +20,12 @@ execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=pillag
 # 地狱亡灵生物（僵尸猪灵，凋零骷髅）
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=zombified_piglin,tag=!boss,tag=!special] run function dawn:mobs/nethers_undead_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=wither_skeleton,tag=!boss,tag=!special] run function dawn:mobs/nethers_undead_strengthen
-# 精英怪类（末影人，猪灵蛮兵，唤魔者，守卫者）/300HP
+# 精英怪类（末影人，猪灵蛮兵，唤魔者，守卫者，潜影贝）/300HP
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=enderman,tag=!boss,tag=!special] run function dawn:mobs/infernal_mobs_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=piglin_brute,tag=!boss,tag=!special] run function dawn:mobs/infernal_mobs_strengthen
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=evoker,tag=!boss,tag=!special] run function dawn:mobs/infernal_mobs_strengthen
-execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=guardian,tag=!boss,tag=!special] run function dawn:mobs/infernal_mobs_strengthen
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=guardian,tag=!boss,tag=!special] run function dawn:mobs/infernal_mobs_strengthe
+execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=shulker,tag=!boss,tag=!special] run function dawn:mobs/infernal_mobs_strengthen
 # 铁傀儡/1000HP
 execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=iron_golem,tag=!boss,tag=!special] run function dawn:mobs/iron_golem_strengthen
 # 末影龙/1024HP

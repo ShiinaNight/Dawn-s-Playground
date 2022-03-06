@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/honjo_masamune",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/excalibur",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/reaper_sickle",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:weapons/rage_of_ubisoft",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "name": "dawn:armors/exoskeleton_mk2",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

@@ -4,19 +4,11 @@
         "settings": {
             "layers": [
                 {
-                    "block": "minecraft:air",
-                    "height": 64
-                },
-                {
-                    "block": "minecraft:bedrock",
+                    "block": "minecraft:glass",
                     "height": 1
                 },
                 {
-                    "block": "minecraft:dirt",
-                    "height": 2
-                },
-                {
-                    "block": "minecraft:grass_block",
+                    "block": "minecraft:barrier",
                     "height": 1
                 }
             ],

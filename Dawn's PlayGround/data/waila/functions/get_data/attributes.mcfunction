@@ -1,3 +1,3 @@
-execute at @s as @e[type=!player,distance=..10] at @s store result score @s wailaBaseAtkDmg run data get entity @s Attributes[{Name:"minecraft:generic.attack_damage"}].Base
-execute at @s as @e[type=!player,distance=..10] at @s store result score @s wailaMHealthBar run data get entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base
-execute at @s as @e[type=!player,distance=..10] at @s store result score @s wailaBaseArmor run data get entity @s Attributes[{Name:"minecraft:generic.armor"}].Base
+execute at @s as @e[distance=0.02..10] at @s store result score @s wailaBaseAtkDmg run data get entity @s Attributes[{Name:"minecraft:generic.attack_damage"}].Base
+execute at @s as @e[distance=0.02..10] at @s store result score @s wailaMHealthBar run data get entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base
+execute at @s as @e[distance=0.02..10] at @s store result score @s wailaBaseArmor run data get entity @s Attributes[{Name:"minecraft:generic.armor"}].Base

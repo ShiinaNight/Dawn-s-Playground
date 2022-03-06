@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
 		"layer0": "dawn:cross/saint_heart"
@@ -25,8 +26,8 @@
 			"scale": [4, 4, 4]
 		},
 		"ground": {
-			"translation": [20, 30, 0],
-			"scale": [4, 4, 4]
+			"translation": [9, 12.25, 0.5],
+			"scale": [2, 2, 2]
 		},
 		"gui": {
 			"translation": [22, 22, -22],

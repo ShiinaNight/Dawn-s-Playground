@@ -16,7 +16,7 @@ execute as @a run function dawn:rune_bag/tick
 # 生物相关
 execute as @e[type=!player,type=!item,type=!falling_block] run function dawn:mobs/tick
 # 竞技场技能相关
-# function dawn_skills:tick
+#function dawn_skills:tick
 
 # 芊汐纸鸢技能
 execute as @e[type=item,predicate=dawn:item/tags/shutsu_crane] at @s unless score @s dawnTemperDelay matches 1 if entity @a[distance=..1,scores={dawnKeepSnkTim=1..}] run function dawn:skills/shutsu_crane/start
@@ -34,12 +34,6 @@ execute as @e[scores={DeathCountDown=0..},tag=!no_particle] run function dawn:pa
 # 立刻杀死DeathCountDown归零的实体///更改：将DeathCountDown归零的实体传送到虚空并杀死
 execute as @e[scores={DeathCountDown=0}] at @s run tp ~ ~-100 ~
 kill @e[scores={DeathCountDown=0}]
-# 根据标签设置DeathCountDown
-execute as @e[tag=dcd_5s] run function dawn:set_score/death_count_down/5s
-execute as @e[tag=dcd_3s] run function dawn:set_score/death_count_down/3s
-execute as @e[tag=dcd_2_5s] run function dawn:set_score/death_count_down/2_5s
-execute as @e[tag=dcd_2s] run function dawn:set_score/death_count_down/2s
-
 
 # 交易相关
 execute as @e[type=item] run function dawn:trade/tick

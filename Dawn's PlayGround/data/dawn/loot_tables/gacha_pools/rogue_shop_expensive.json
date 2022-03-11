@@ -20,11 +20,6 @@
                 },
                 {
                     "type": "loot_table",
-                    "name": "dawn:weapons/infinity_blade_3d",
-                    "weight": 1
-                },
-                {
-                    "type": "loot_table",
                     "name": "dawn:weapons/surtr",
                     "weight": 10
                 },

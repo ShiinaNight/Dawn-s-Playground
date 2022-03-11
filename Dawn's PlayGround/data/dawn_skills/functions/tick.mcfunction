@@ -6,3 +6,5 @@
 
 # 契约
 function dawn_skills:contract/tick
+
+function dawn_skills:immortal_blade/tick

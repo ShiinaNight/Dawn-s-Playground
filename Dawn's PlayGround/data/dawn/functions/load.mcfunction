@@ -46,6 +46,8 @@ scoreboard objectives add dawnTemper1 dummy
 scoreboard objectives add dawnTemper2 dummy
 # 20.防止状态切换时对物品数据修改的两条指令同时进行
 scoreboard objectives add dawnTemperDelay dummy
+# 21.不死斩无敌帧
+scoreboard objectives add dawnImmortalBladeCD dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

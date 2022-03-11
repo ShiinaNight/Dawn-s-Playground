@@ -37,4 +37,4 @@ execute unless entity @s[scores={dawnMobStreng=1}] run execute as @s[type=elder_
 # 幻翼
 execute as @e[type=phantom] run scoreboard players set @s dawnUnDead 1
 # 标记公会门卫为亡灵
-execute as @e[tag=guild_guard] unless score @s dawnUnDead matches 1 run scoreboard players set @s dawnUnDead 1
+execute as @e[tag=summoned_guild_guard] unless score @s dawnUnDead matches 1 run scoreboard players set @s dawnUnDead 1

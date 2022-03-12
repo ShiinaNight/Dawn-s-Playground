@@ -15,7 +15,7 @@ schedule function dawn_skills:immortal_blade/particle_show 2s
 execute as @e[type=armor_stand,tag=immortal_blade_particle] unless entity @s[tag=powered] run schedule function dawn_skills:immortal_blade/damage 2s
 execute as @e[type=armor_stand,tag=immortal_blade_particle] if entity @s[tag=powered] run schedule function dawn_skills:immortal_blade/damage_powered 2s
 # 显示标题
-title @s title [{"text": "不死斩","color": "red"}]
+title @s title [{"text": "不死斩","color": "red","bold":true}]
 title @s times 10 20 10
 
 

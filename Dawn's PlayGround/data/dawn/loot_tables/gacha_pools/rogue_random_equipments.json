@@ -224,12 +224,12 @@
       {
 "weight":1,
         "type": "item",
-        "name": "minecraft:netherite_sword",
+        "name": "minecraft:netherite_axe",
         "functions": 
         [
           {
             "function": "minecraft:set_nbt",
-            "tag": "{id:\"rogue:sword_off\",Unbreakable:1b}"
+            "tag": "{id:\"rogue:axe_off\",Unbreakable:1b}"
           },
           {
             "function":"set_attributes",

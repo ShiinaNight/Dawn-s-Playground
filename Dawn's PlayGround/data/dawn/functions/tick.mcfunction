@@ -16,7 +16,7 @@ execute as @a run function dawn:rune_bag/tick
 # 生物相关
 execute as @e[type=!player,type=!item,type=!falling_block] run function dawn:mobs/tick
 # 竞技场技能相关
-#function dawn_skills:tick
+# function dawn_skills:tick
 
 # 芊汐纸鸢技能
 execute as @e[type=item,predicate=dawn:item/tags/shutsu_crane] at @s unless score @s dawnTemperDelay matches 1 if entity @a[distance=..1,scores={dawnKeepSnkTim=1..}] run function dawn:skills/shutsu_crane/start
@@ -35,8 +35,12 @@ execute as @e[scores={DeathCountDown=0..},tag=!no_particle] run function dawn:pa
 execute as @e[scores={DeathCountDown=0}] at @s run tp ~ ~-100 ~
 kill @e[scores={DeathCountDown=0}]
 
+# 通用伤害系统（为了防止bug，关闭对玩家的伤害系统）
+# function ud:ud_dealt_player
+function ud:ud_dealt_uplayer
+
 # 交易相关
 execute as @e[type=item] run function dawn:trade/tick
 
 # 南极
-execute if entity @a in dawn:cave run function south_pole:tick
+# execute if entity @a in dawn:cave run function south_pole:tick

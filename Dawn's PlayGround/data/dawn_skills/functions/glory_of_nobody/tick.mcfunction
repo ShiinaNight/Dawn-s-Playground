@@ -1,0 +1,1 @@
+execute as @a[predicate=dawn:offhand/skills/glory_of_nobody] if score @s dawnSkillTim matches 1.. run effect give @s blindness 2 1 true

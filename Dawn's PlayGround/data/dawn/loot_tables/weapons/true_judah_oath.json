@@ -57,7 +57,7 @@
                                     "obfuscated": false
                                 },
                                 {
-                                    "text": "+90 攻击伤害",
+                                    "text": "+120 攻击伤害",
                                     "color": "blue",
                                     "bold": false,
                                     "italic": false,
@@ -74,7 +74,7 @@
                                     "name": "generic.attack_damage",
                                     "attribute": "generic.attack_damage",
                                     "operation": "addition",
-                                    "amount": 90,
+                                    "amount": 120,
                                     "slot": "mainhand"
                                 },
                                 {

@@ -48,6 +48,9 @@ scoreboard objectives add dawnTemper2 dummy
 scoreboard objectives add dawnTemperDelay dummy
 # 21.不死斩无敌帧
 scoreboard objectives add dawnImmortalBladeCD dummy
+scoreboard objectives add dawnImmortalBladeCD2 dummy
+# 22.赤金锭数量
+scoreboard objectives add dawnPureGoldIngot dummy
 
 # 二、函数周期执行用计分板
 # 1.两刻一次

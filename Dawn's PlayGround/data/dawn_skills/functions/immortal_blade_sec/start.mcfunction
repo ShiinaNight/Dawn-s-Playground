@@ -1,0 +1,1 @@
+execute as @a[predicate=dawn:offhand/skills/immortal_blade,scores={dawnSkillTim=1..}] at @s run function dawn_skills:immortal_blade_sec/main

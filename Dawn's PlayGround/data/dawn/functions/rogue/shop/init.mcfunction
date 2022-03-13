@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=place_1,limit=1] run function dawn:rogue/shop/place_1/set_item

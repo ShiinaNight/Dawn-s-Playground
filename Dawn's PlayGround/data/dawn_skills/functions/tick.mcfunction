@@ -9,3 +9,6 @@ function dawn_skills:contract/tick
 
 # 不死斩
 function dawn_skills:immortal_blade/tick
+
+# 无名者的荣耀
+function dawn_skills:glory_of_nobody/tick

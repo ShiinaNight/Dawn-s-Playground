@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Tags:["shop","place_1"]}

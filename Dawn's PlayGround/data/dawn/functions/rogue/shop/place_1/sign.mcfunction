@@ -1,0 +1,1 @@
+give @s minecraft:birch_sign{BlockEntityTag:{Text1:'[{"text":"","clickEvent":{"action":"run_command","value":"/function dawn:rogue/shop/place_1/buy"}}]',Text2:'[{"text":"点击购买"}]',Text3:'[{"text":"32 源石锭"}]',Text4:'[{"text":""}]'}} 1

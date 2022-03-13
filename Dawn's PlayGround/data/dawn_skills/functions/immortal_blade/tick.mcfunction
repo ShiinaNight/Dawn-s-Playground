@@ -11,3 +11,6 @@ execute as @a[predicate=dawn:offhand/skills/immortal_blade] if score @s dawnSkil
 execute as @e[tag=immortal_blade] if entity @e[type=armor_stand,tag=immortal_blade_show_particle] at @s run function dawn_skills:immortal_blade/particle_main
 # 无敌帧
 scoreboard players remove @e[scores={dawnImmortalBladeCD=1..}] dawnImmortalBladeCD 1
+
+# 第二刀
+function dawn_skills:immortal_blade_sec/tick

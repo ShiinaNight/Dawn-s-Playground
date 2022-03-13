@@ -42,5 +42,8 @@ function ud:ud_dealt_uplayer
 # 交易相关
 execute as @e[type=item] run function dawn:trade/tick
 
+# 公会门卫技能
+execute if entity @e[tag=summoned_guild_guard] run function dawn:entities/guild_guard_tick
+
 # 南极
 # execute if entity @a in dawn:cave run function south_pole:tick

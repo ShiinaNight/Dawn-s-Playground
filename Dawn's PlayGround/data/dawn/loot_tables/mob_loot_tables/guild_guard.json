@@ -2,7 +2,7 @@
     "type": "minecraft:entity",
     "pools": [
         {
-            "rolls": 10,
+            "rolls": 3,
             "bonus_rolls": 0,
             "conditions": [
                 {
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "rolls": 10,
+            "rolls": 3,
             "bonus_rolls": 0,
             "conditions": [
                 {

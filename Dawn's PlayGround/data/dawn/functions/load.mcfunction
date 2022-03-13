@@ -51,6 +51,9 @@ scoreboard objectives add dawnImmortalBladeCD dummy
 scoreboard objectives add dawnImmortalBladeCD2 dummy
 # 22.赤金锭数量
 scoreboard objectives add dawnPureGoldIngot dummy
+# 23.公会门卫受击次数
+scoreboard objectives add dawnHurtTimes dummy
+
 
 # 二、函数周期执行用计分板
 # 1.两刻一次
@@ -83,3 +86,4 @@ scoreboard objectives add dawnDelayStriker dummy
 scoreboard objectives add SPTarget dummy
 scoreboard objectives add SPReady dummy
 scoreboard objectives add SPReloading dummy
+scoreboard objectives add SPFriendliness dummy

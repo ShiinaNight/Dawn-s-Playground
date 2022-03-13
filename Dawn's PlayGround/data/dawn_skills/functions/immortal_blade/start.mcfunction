@@ -10,6 +10,8 @@ execute if score @s dawnKeepSnkTim matches 60.. if score @s dawnSkillPoint match
 execute as @e[tag=immortal_blade_particle] at @a[predicate=dawn:offhand/skills/immortal_blade,sort=nearest,limit=1] anchored eyes run tp @s ^ ^ ^-0.1 facing entity @a[predicate=dawn:offhand/skills/immortal_blade,sort=nearest,limit=1]
 execute as @e[tag=immortal_blade_particle] at @a[predicate=dawn:offhand/skills/immortal_blade,sort=nearest,limit=1] run tp @s ~ ~-2.5 ~ ~-80 -30
 function dawn:set_score/death_count_down/set
+# 播放前摇音效
+execute at @s run playsound entity.elder_guardian.curse player @a ~ ~ ~ 1
 # 延时显示粒子、造成伤害
 schedule function dawn_skills:immortal_blade/particle_show 2s
 execute as @e[type=armor_stand,tag=immortal_blade_particle] unless entity @s[tag=powered] run schedule function dawn_skills:immortal_blade/damage 2s

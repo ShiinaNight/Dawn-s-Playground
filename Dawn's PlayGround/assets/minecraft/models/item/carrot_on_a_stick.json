@@ -5,6 +5,7 @@
 	},
 	"overrides": [
 		{ "predicate": { "custom_model_data": 12771008 }, "model": "dawn:skill/judgement_cut"},
-		{ "predicate": { "custom_model_data": 12771009 }, "model": "dawn:skill/contract"}
+		{ "predicate": { "custom_model_data": 12771009 }, "model": "dawn:skill/contract"},
+		{ "predicate": { "custom_model_data": 12771010 }, "model": "dawn:sword/immortal_blade"}
 	]
 }

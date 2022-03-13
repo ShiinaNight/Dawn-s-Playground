@@ -33,6 +33,22 @@
             {
               "function":"set_attributes",
               "modifiers":[
+                
+                  {
+                      "name": "rre_ba",
+                      "attribute": "generic.attack_speed",
+                      "operation": "multiply_base",
+                      "amount":{
+                        "min":-0.99,
+                        "max":1
+                      },
+                      "slot": "head"
+                  }
+              ]
+          },
+            {
+              "function":"set_attributes",
+              "modifiers":[
                   {
                       "name": "rre_b",
                       "attribute": "generic.follow_range",
@@ -138,6 +154,22 @@
                 }
             ]
         },
+        {
+              "function":"set_attributes",
+              "modifiers":[
+                
+                  {
+                      "name": "rre_ba",
+                      "attribute": "generic.attack_speed",
+                      "operation": "multiply_base",
+                      "amount":{
+                        "min":-0.99,
+                        "max":1
+                      },
+                      "slot": "head"
+                  }
+              ]
+          },
         {
           "function":"set_attributes",
           "modifiers":[
@@ -247,6 +279,22 @@
             ]
         },
         {
+              "function":"set_attributes",
+              "modifiers":[
+                
+                  {
+                      "name": "rre_ba",
+                      "attribute": "generic.attack_speed",
+                      "operation": "multiply_base",
+                      "amount":{
+                        "min":-0.99,
+                        "max":1
+                      },
+                      "slot": "head"
+                  }
+              ]
+          },
+        {
           "function":"set_attributes",
           "modifiers":[
               {
@@ -352,6 +400,22 @@
                 }
             ]
         },
+        {
+              "function":"set_attributes",
+              "modifiers":[
+                
+                  {
+                      "name": "rre_ba",
+                      "attribute": "generic.attack_speed",
+                      "operation": "multiply_base",
+                      "amount":{
+                        "min":-0.99,
+                        "max":1
+                      },
+                      "slot": "head"
+                  }
+              ]
+          },
         {
           "function":"set_attributes",
           "modifiers":[
@@ -460,6 +524,22 @@
             ]
         },
         {
+              "function":"set_attributes",
+              "modifiers":[
+                
+                  {
+                      "name": "rre_ba",
+                      "attribute": "generic.attack_speed",
+                      "operation": "multiply_base",
+                      "amount":{
+                        "min":-0.99,
+                        "max":1
+                      },
+                      "slot": "head"
+                  }
+              ]
+          },
+        {
           "function":"set_attributes",
           "modifiers":[
               {
@@ -566,6 +646,22 @@
                 }
             ]
         },
+        {
+              "function":"set_attributes",
+              "modifiers":[
+                
+                  {
+                      "name": "rre_ba",
+                      "attribute": "generic.attack_speed",
+                      "operation": "multiply_base",
+                      "amount":{
+                        "min":-0.99,
+                        "max":1
+                      },
+                      "slot": "head"
+                  }
+              ]
+          },
         {
           "function":"set_attributes",
           "modifiers":[

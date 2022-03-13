@@ -15,7 +15,15 @@
                             "function": "set_lore",
                             "lore": [
                                 {
-                                    "text": "将两个来自不同世界的物品摆在一起是一件及其危险的事情，你应当明白这点",
+                                    "text": "将两个来自不同世界的物品摆在一起是一件",
+                                    "bold": false,
+                                    "italic": true,
+                                    "underlined": false,
+                                    "strikethrough": false,
+                                    "obfuscated": false
+                                },
+                                {
+                                    "text": "及其危险的事情，你应当明白这点",
                                     "bold": false,
                                     "italic": true,
                                     "underlined": false,

@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{id:\"immortal_blade\",CustomModelData:12771008,display:{Name:'{\"text\":\"[技能] 不死斩\",\"italic\":false,\"color\":\"yellow\"}'}}"
+                            "tag": "{id:\"immortal_blade\",CustomModelData:12771010,display:{Name:'{\"text\":\"[技能] 不死斩\",\"italic\":false,\"color\":\"yellow\"}'}}"
                         },
                         {
                             "function": "set_lore",

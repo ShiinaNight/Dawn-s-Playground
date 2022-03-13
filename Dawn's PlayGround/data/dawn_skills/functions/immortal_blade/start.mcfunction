@@ -5,7 +5,7 @@ scoreboard players set @s dawnSkillTim 120
 # 生成一个有标签的盔甲架 用于生成其他盔甲架
 summon minecraft:armor_stand ~ ~ ~ {Tags:["immortal_blade_particle","dcd_2s","no_particle"],Invisible:1b,NoGravity:1b}
 # 生成一个有临时盔甲架 用于给第二刀判定是否蓄力
-summon armor_stand ~ ~ ~ {Tags:["immortal_blade_temp","powered"],Invisible:1b,NoGravity:1b}
+summon armor_stand ~ ~ ~ {Tags:["immortal_blade_temp"],Invisible:1b,NoGravity:1b}
 
 # 如果已经蓄力3s 则额外消耗技力发动蓄力不死斩
 execute if score @s dawnKeepSnkTim matches 60.. if score @s dawnSkillPoint matches 150.. run function dawn_skills:immortal_blade/powered
